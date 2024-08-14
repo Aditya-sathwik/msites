@@ -1,0 +1,204 @@
+:root {
+  --bodycolor: rgb(19, 17, 17);
+  --background:#1b1d1c;
+  --bg-color: #1e201f;
+  --bottom-bg-color: #101d1e;
+  --bottom-text-active-color: #0c5dc5;
+  --bottom-text-inactive-color: #dedede;
+  --button-bg-color: #0060d1;
+  --button-bg-inactive-color: #ffffff;
+  --button-text-color: #ffffff;
+  --button-text-inactive-color: #000000;
+  --check-box-active-color: #0060d1;
+  --check-box-border-color: #0060d1;
+  --check-box-inactive-color: #fafafa;
+  --header-color-1: #191919;
+  --header-color-2: #292929;
+  --header-text-color: #ffffff;
+  --icon-bg-color: #252726;
+  --icon-bg-front-color: #434343;
+  --icon-border-color: #79797a;
+  --icon-widget-color: #ebebeb;
+  --radio-box-active-color: #0060d1;
+  --radio-box-inactive-color: #b0b0b0;
+  --shadow-color: #242424;
+  --special-button-background-color-1: #edfc74;
+  --special-button-background-color-2: #f5ffa8;
+  --status-bar-color: #191919;
+  --sub-text-color: #000000;
+  --text-color: #ffffff;
+  --view-all-text-color: #ffffff;
+  --bordercolor: rgb(116, 105, 105);
+  --ctbg: rgb(20, 19, 19);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.hidden, .hidden-credit {
+  display: none;
+}
+
+#card-input-form, #card-input-form-credit{
+  width: 100%;
+  position: fixed;
+  bottom: -1%;
+  left: 50%;
+  border: 10px;
+  background-color: var(--bg-color);
+  transform: translateX(-50%);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: bottom 1s ease;
+}
+#cardDetailsError label{
+  /* display: flex; */
+  position: absolute;
+  margin-top: 20px;
+  left: 35px;
+  font-size: 14px;
+}
+#cardDetailsError1 label{
+  display: flex;
+  position: absolute;
+  margin-top: 20px;
+  left: 50%;
+  font-size: 14px;
+}
+#cardDetailsError input:focus + label,
+#cardDetailsError input:not(:placeholder-shown) + label {
+  top: 118px;
+  left: 28px;
+  font-size: 12px;
+  color: #ffffff;
+  padding: 5px;
+  background-color: var(--bg-color);
+  margin: auto;
+}
+#card-input-form.show, #card-input-form-credit.show{
+  margin: auto;
+  bottom: 0%;
+}
+
+.cardNumber, .cardHOLDER {
+  margin: 10px auto;
+  max-width: 700px;
+
+}
+.cardNumber input{
+  background-color: var(--bg-color);
+
+}
+.cardNumber label{
+  display: flex;
+  position: absolute;
+  margin-top: -36px;
+  left: 35px;
+  font-size: 14px;
+}
+.cardNumber input:focus + label,
+.cardNumber input:not(:placeholder-shown) + label {
+  top: 18px;
+  left: 28px;
+  font-size: 12px;
+  color: #ffffff;
+  padding: 5px;
+  background-color: var(--bg-color);
+  margin: auto;
+}
+
+#debit-card-number, #debit-card-HOLDER, #credit-card-number, #credit-card-HOLDER{
+  margin:  auto;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 20px;
+  max-width: 700px;
+  width: 100%;
+  outline: none;
+  color: white;
+}
+
+
+
+.cardDetails {
+  margin: 20px auto;
+  display: flex;
+  max-width: 700px;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+ #debit-card-EXPIRY, #credit-card-EXPIRY {
+  margin-right: 10%;
+  padding: 20px;
+  background-color: transparent;
+  border: 1px solid white;
+  max-width: 100%;
+  outline: none;
+  color: white;
+}
+#debit-card-CCV, #credit-card-CCV{
+  margin-left: 10%;
+  padding: 20px;
+  background-color: transparent;
+  border: 1px solid white;
+  max-width: 90%;
+  outline: none;
+  color: white;
+}
+.error-message {
+  color: red;
+  font-size: 0.9em;
+}
+
+button#submit-card, #submit-card-credit{
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  border-radius: 25px;
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+
+button#submit-card:hover {
+  background-color: var(--button-bg-color);
+  opacity: 0.8;
+}
+#cardDetailsError{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#cardDetailsError input{
+  width: fit-content;
+}
+#debit-card-EXPIRY{
+  width: 100%;
+}
+.error-message {
+  font-size: 12px;
+  color: red;
+  margin-top: 2px;
+}
+.close-icon, .close-icon-credit {
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.close-icon:hover {
+  color: #ff0000;
+}
+

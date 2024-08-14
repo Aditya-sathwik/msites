@@ -1,0 +1,415 @@
+:root {
+  --bg-color: #1e201f;
+  --bottom-bg-color: #101d1e;
+  --bottom-text-active-color: #0c5dc5;
+  --bottom-text-inactive-color: #dedede;
+  --button-bg-color: #0060d1;
+  --button-bg-inactive-color: #ffffff;
+  --button-text-color: #ffffff;
+  --button-text-inactive-color: #000000;
+  --check-box-active-color: #0060d1;
+  --check-box-border-color: #0060d1;
+  --check-box-inactive-color: #fafafa;
+  --header-color-1: #191919;
+  --header-color-2: #292929;
+  --header-text-color: #ffffff;
+  --icon-bg-color: #252726;
+  --icon-bg-front-color: #434343;
+  --icon-border-color: #79797a;
+  --icon-widget-color: #ebebeb;
+  --radio-box-active-color: #0060d1;
+  --radio-box-inactive-color: #b0b0b0;
+  --shadow-color: #242424;
+  --special-button-background-color-1: #edfc74;
+  --special-button-background-color-2: #f5ffa8;
+  --status-bar-color: #191919;
+  --sub-text-color: #000000;
+  --text-color: #ffffff;
+  --view-all-text-color: #ffffff;
+}
+
+#nav {
+  background: #000000;
+background: -webkit-linear-gradient(90deg, #000000 0%, #262327 100%);
+background: linear-gradient(90deg, #000000 0%, #231e24 100%); 
+  display: flex; 
+  justify-content: space-between; 
+  list-style-type: none; 
+  text-decoration: underline;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+ .nav-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--header-text-color); 
+}
+
+.nav-item img.color-change {
+  filter: invert(220%) brightness(800%);
+  background-color: transparent;
+  padding: 5px;
+  margin-right: 8px; 
+  width: 30px; 
+  height: 30px; /
+}
+#parent{
+ padding-left: 10px;
+ padding-right: 10px;
+}
+
+.nav-item span {
+  font-size: 14px; 
+  font-weight: 200;
+  line-height: 1; 
+}
+
+/* metro services */
+.metro-services {
+  max-width: 700px;
+  margin: 10px auto auto auto;
+  margin-top: 10px;
+  text-align: center;
+  background-color: var(--bg-color);
+  border-radius: 10px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  opacity: 0.9;
+}
+
+.metro-services h2 {
+  padding-top: 15px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  gap: 5px;
+ align-items: center;
+ font-weight: 500;
+ /* margin: auto; */
+ margin-left: 10%;
+ margin-right: 10%;
+}
+.services-grid a{
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 10px;
+  max-width: 85px;
+  height: 110px;
+  background-color: var(--icon-bg-color);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.service-item {
+  text-align: center;
+  background-color: var(--icon-bg-front-color);
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  margin: 5px auto auto auto;
+  padding-top: 5px;
+}
+
+.service-item img {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  background-color: transparent; 
+  display: block;
+  margin: auto ;
+}
+
+.services-grid a p {
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/*----------wallet-------*/
+.wallet-details a{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ margin: 20px auto;
+}
+#wallet a{
+ color: var(--text-color);
+ text-decoration: none;
+ display: flex;
+ justify-content: space-between; 
+ align-items: center;
+ background-color: var(--bg-color);
+ border-radius: 10px;
+ width: 100%; 
+ max-width: 700px; 
+height: 80px;
+ margin-top: 10px;
+ /* padding: 5px; */
+}
+.walletpng{
+  /* padding: 10px; */
+  margin-left: 20px;
+  /* border-radius: 35px; */
+}
+#wallet img {
+ width: 30px;
+ height: 30px;
+ /* padding: 5px; */
+ border-radius: 5px;
+ /* background-color: var(--logobg); */
+}
+
+/*--------promo-----*/
+.promo{
+  max-width: 700px;
+  margin: 10px auto;
+  border-radius: 15px;
+  }
+  #promoimage{
+    width: 100%;
+    height: 150px;
+    max-width: 700px;
+   justify-self: center;
+  }
+ /*--------recharge------*/
+.recharge-container, .other-container, .station-container, .information-container {
+  max-width: 700px;
+  margin: 10px auto auto auto;
+  background-color: var(--bg-color);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  /* padding-left: 5px;
+  padding-right: 5px; */
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--shadow-color);
+}
+
+.recharge-about, .other-about, .station-about, .information-about{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recharge-about h3, .other-about h3, .station-about h3, .information-about h3{
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.recharge-about  a, .other-about a, .station-about a, .information-about a{
+  text-decoration: none;
+  color: var(--view-all-text-color);
+  margin-right: 5px;
+}
+
+
+.paybills, .biils, .othersinfo, .biils, .stationinfo, .stations, .informations, .informationinfo{
+  display: flex;
+  flex-direction: row;
+}
+
+.paybills a, .othersinfo a, .stationinfo a, .informationinfo a{
+  text-decoration: none;
+  color: var(--text-color);
+  display: flex;
+  background-color: var(--icon-bg-color);
+   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px auto auto auto;
+  border-radius: 10px;
+  width: 70px;
+  height: 80px;
+  /* padding-bottom: 5px; */
+}
+.paybills a img, .othersinfo a img,.stationinfo a img, .informationinfo a img{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.bill img, .otherimage, .stationimg img .information img{
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  /* justify-content: space-evenly; */
+  border-radius: 3px;
+  background-color: var(--icon-bg-front-color);
+}
+
+
+.paybills p, .othersinfo p, .stationinfo p, .informationinfo p{
+  margin-top: 10px;
+  max-width: 80px;
+  font-size: 10px;
+  font-weight: 600;
+  margin-bottom: 10px;
+} 
+
+/*------------other---------*/
+
+@media (max-width: 700px) {
+  .services-grid {
+      grid-template-columns: repeat(4, 1fr);
+     justify-content: space-between;
+     margin-left: 15%;
+  }
+  .services-grid a{
+   max-width: 80px;
+  }
+  .informationinfo a{
+    width: 70px;
+    height: 100px;
+    padding-top: 10px;
+  }
+  .service-item{
+    margin-top: 5px;
+  }
+  .service-item img {
+    /* margin-top: 5px; */
+    width: 30px;
+    background-color: transparent;
+    height: 30px;
+    display: block;
+    margin: 0 auto ;
+  }
+  .service-item p {
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 10px;
+  }
+  .walletpng{
+    background-color: var(--imgbg);
+    padding: 3px;
+    border-radius: 15px;
+  }
+  #wallet img {
+   width: 30px;
+   height: 30px;
+   padding: 5px;
+  }
+  .paybills a,
+  .othersinfo a {
+   width: 70px; 
+    /* padding: 3px;  */
+    font-size: 10px;
+  }
+  .paybills a p{
+    margin-bottom: 10px;
+  }
+  .paybills a img,
+  .othersinfo a img,
+  .staioninfo a img{
+    /* width: 30px; */
+   border-radius: 1px;
+  }
+  .stationinfo a{
+    margin-top: 5px;
+    width: 80px;
+    height: 90px;
+   padding-top: 10px;
+  }
+  
+  .stationinfo p{
+    margin-top: 10px;
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  .informationinfo a p{
+    margin-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+@media (max-width: 500px) {
+.services-grid {
+  grid-template-columns: repeat(4, 1fr);
+ justify-content: space-between;
+ margin-left: 5%;
+ margin-right: 5%;
+}
+}
+@media (max-width: 400px) {
+  .services-grid {
+    grid-template-columns: repeat(4, 1fr);
+   justify-content: space-between;
+   margin: auto;
+}
+  .services-grid a{
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .services-grid a{
+    max-width: 80px;
+    height: 90px;
+   }
+   .service-item{
+    margin-top: 5px;
+   }
+  .service-item img {
+    width: 30px;
+    background-color: transparent;
+    height: 30px;
+    display: block;
+    margin: auto;
+  }
+
+  .services-grid a p {
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 600;
+    
+  }
+
+  .walletpng {
+    background-color: var(--imgbg);
+    padding: 3px;
+    margin-left: 5px;
+    border-radius: 15px;
+  }
+
+  #wallet img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    filter: brightness(200%);
+  }
+
+   
+  .stationinfo a{
+   padding-top: 5px;
+    width: 70px;
+    height: 90px;
+    /* padding: 10px; */
+  }
+  .staioninfo a img{
+    /* margin-top: 10px; */
+
+  }
+  .stationinfo p{
+    font-size: 10px;
+    margin-top: 10px;
+    /* width: 100%; */
+  }
+  .information a{
+    max-width: 110px;
+    height: 90px;
+  }
+  .othersinfoa p{
+    margin-top: 10px;
+  }
+}

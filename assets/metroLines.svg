@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.323" height="24.345" viewBox="0 0 24.323 24.345">
+  <g id="metroLines" transform="translate(1.128 1.128)">
+    <path id="路径-9" d="M3.068.908,0,23" transform="translate(0 -0.908)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+    <path id="路径-9-2" data-name="路径-9" d="M3.046,22.062,0,0" transform="translate(22.067 22.062) rotate(180)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+    <path id="路径-10" d="M18,.908V4.59" transform="translate(-6.955 -0.908)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+    <path id="路径-10-2" data-name="路径-10" d="M18,29.908v4.3" transform="translate(-6.955 -12.114)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+    <path id="路径-10-3" data-name="路径-10" d="M18,14.908v4.3" transform="translate(-6.955 -6.318)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+  </g>
+</svg>

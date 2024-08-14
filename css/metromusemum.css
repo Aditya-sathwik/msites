@@ -1,0 +1,127 @@
+:root {
+    --bodycolor: rgb(19, 17, 17);
+    --background: #1b1d1c;
+    --bg-color: #1e201f;
+    --bottom-bg-color: #101d1e;
+    --bottom-text-active-color: #0c5dc5;
+    --bottom-text-inactive-color: #dedede;
+    --button-bg-color: #0060d1;
+    --button-bg-inactive-color: #ffffff;
+    --button-text-color: #ffffff;
+    --button-text-inactive-color: #000000;
+    --check-box-active-color: #0060d1;
+    --check-box-border-color: #0060d1;
+    --check-box-inactive-color: #fafafa;
+    --header-color-1: #191919;
+    --header-color-2: #292929;
+    --header-text-color: #ffffff;
+    --icon-bg-color: #252726;
+    --icon-bg-front-color: #434343;
+    --icon-border-color: #79797a;
+    --icon-widget-color: #ebebeb;
+    --radio-box-active-color: #0060d1;
+    --radio-box-inactive-color: #b0b0b0;
+    --shadow-color: #242424;
+    --special-button-background-color-1: #edfc74;
+    --special-button-background-color-2: #f5ffa8;
+    --status-bar-color: #191919;
+    --sub-text-color: #000000;
+    --text-color: #ffffff;
+    --view-all-text-color: #ffffff;
+    --bordercolor: rgb(116, 105, 105);
+    --ctbg: rgb(20, 19, 19);
+}
+
+body {
+
+    background-color: var(--header-color-1);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    -webkit-text-size-adjust: 100%;
+    color: var(--text-color);
+}
+
+.label-classe {
+    background-color: var(--bg-color);
+}
+
+#tiket_header {
+    background-color: var(--header-color-1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 10px 0px;
+}
+
+.leftMetro {
+    display: flex;
+    align-items: center;
+}
+
+.leftMetro img {
+    margin-right: 10px;
+}
+
+.ibutton img {
+    width: 24px;
+    height: 24px;
+}
+
+
+.section-container {
+    display: none;
+}
+
+
+.museum-body {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    padding: 20px 6px;
+    margin: 45px 0 0 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: var(--shadow-color);
+
+}
+
+
+.container {
+    overflow-y: auto;
+    max-height: 80vh;
+    margin-top: 5px;
+    padding: 20px;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   padding: 0px 20px  20px 20px;
+   font-size: 12px;
+   font-weight: 300;
+}
+.services h3{
+    font-weight: 500;
+}
+.services p{
+padding-top: 5px;
+   font-size: 9px;
+}
+.services ul{
+padding-top: 8px;
+   font-size: 9px;
+}
+.services li{
+padding: 4px 0px;
+   font-size: 9px;
+}

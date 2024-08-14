@@ -1,0 +1,192 @@
+:root {
+  --bodycolor:rgb(19, 17, 17);
+  --bg-color: #1e201f;
+  --bottom-bg-color: #101d1e;
+  --bottom-text-active-color: #0c5dc5;
+  --bottom-text-inactive-color: #dedede;
+  --button-bg-color: #0060d1;
+  --button-bg-inactive-color: #ffffff;
+  --button-text-color: #ffffff;
+  --button-text-inactive-color: #000000;
+  --check-box-active-color: #0060d1;
+  --check-box-border-color: #0060d1;
+  --check-box-inactive-color: #fafafa;
+  --header-color-1: #191919;
+  --header-color-2: #292929;
+  --header-text-color: #ffffff;
+  --icon-bg-color: #252726;
+  --icon-bg-front-color: #434343;
+  --icon-border-color: #79797a;
+  --icon-widget-color: #ebebeb;
+  --radio-box-active-color: #0060d1;
+  --radio-box-inactive-color: #b0b0b0;
+  --shadow-color: #242424;
+  --special-button-background-color-1: #edfc74;
+  --special-button-background-color-2: #f5ffa8;
+  --status-bar-color: #191919;
+  --sub-text-color: #000000;
+  --text-color: #ffffff;
+  --view-all-text-color: #ffffff;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+ -webkit-text-size-adjust: 100%;
+}
+
+body{
+  background-color: var(--bodycolor);
+  color: var(--text-color);
+} 
+
+
+signin-container {
+  text-align: center; 
+  
+ }
+ .metro-logo {
+  margin-top: 4%;
+  display: flex;
+  justify-content: center; 
+}
+.metro-logo img {
+  align-items: center;
+  max-width: 100px;
+  height: 100px; 
+}
+#loginform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#loginform p {
+font-size: 14px;;
+font-weight: 500;
+margin-top: 20px;
+}
+#loginform h6{
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 10px;
+  font-weight: 300;
+}
+.container {
+  width: 250px;
+}
+.container .inp {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #fff;
+  outline: none;
+  margin-top: 20px;
+  color: #fff;
+  background: var(--bg-color);
+  font-size: 12px;
+}
+.container .content {
+ 
+  position: absolute;
+ margin-left: -250px;
+  margin-top: 20px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 200;
+  pointer-events: none;
+  /* color: var(--fontcolor); */
+  transition: 1s;
+}
+.container input:valid ~ span,
+.container input:focus ~ span {
+  color: var(--fontcolor);
+  transform: translateX(10px) translateY(-7px);
+  font-size: 12px;
+  font-weight: 200;
+  padding: 0 10px;
+  background: var(--bg-color);
+  
+}
+button {
+  margin-top: 15px;
+  font-size: 10px;
+  font-weight: 200;
+  padding: 10px 70px;
+  border: transparent;
+  background: var(--bottom-text-active-color);
+  color: white;
+  border-radius: 20px;
+  max-width: 350px;
+  cursor: pointer;
+ }
+ .error-message-container{
+  font-size: 10px;
+  font-weight: 200;
+  padding: 5px;
+  text-align: left;
+ }
+
+ .error {
+  color: red;
+}
+.otp-container {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  margin-top: 30px;
+}
+.otp-input {
+  width: 35px;
+  height: 35px;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: black;
+}
+.otp-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+.otp-head{
+  margin-top: 15px;
+}
+#profileinput input{
+  padding: 10px;
+  border: 1px solid var(--button-bg-inactive-color);
+  font-size: 14px;
+  margin: 10px;
+  background-color: transparent;
+  max-width: 350px;
+  color: var(--text-color);
+}
+h6{
+  color: var(--text-color);
+}
+
+@media screen and (max-width: 768px) {
+  
+  .signin-container {
+      margin-top: 10%; 
+  }
+  .metro-logo {
+    margin-top: 8%;
+    display: flex;
+    justify-content: center; 
+  }
+  .metro-logo img {
+    max-width: 100px;
+    height: 100px; 
+  }
+ 
+}
+@media screen and (max-width: 270px) {
+  .inp{
+   
+    width: 200px;
+  }
+}

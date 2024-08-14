@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Group_13761" data-name="Group 13761" transform="translate(4837 2278)">
+    <rect id="Rectangle_1931" data-name="Rectangle 1931" width="28" height="28"
+      transform="translate(-4837 -2278)" fill="none" />
+    <path id="Icon_awesome-lock" data-name="Icon awesome-lock"
+      d="M16.406,9.188h-.984V6.234a6.234,6.234,0,0,0-12.469,0V9.188H1.969A1.969,1.969,0,0,0,0,11.156v7.875A1.969,1.969,0,0,0,1.969,21H16.406a1.969,1.969,0,0,0,1.969-1.969V11.156A1.969,1.969,0,0,0,16.406,9.188Zm-4.266,0H6.234V6.234a2.953,2.953,0,0,1,5.906,0Z"
+      transform="translate(-4832 -2275)" fill="currentColor" opacity="0.5" />
+  </g>
+</svg>

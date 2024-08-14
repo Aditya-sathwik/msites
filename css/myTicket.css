@@ -1,0 +1,446 @@
+:root {
+  --bg-color: #1e201f;
+  --bottom-bg-color: #101d1e;
+  --bottom-text-active-color: #0c5dc5;
+  --bottom-text-inactive-color: #dedede;
+  --button-bg-color: #0060d1;
+  --button-bg-inactive-color: #ffffff;
+  --button-text-color: #ffffff;
+  --button-text-inactive-color: #000000;
+  --check-box-active-color: #0060d1;
+  --check-box-border-color: #0060d1;
+  --check-box-inactive-color: #fafafa;
+  --header-color-1: #191919;
+  --header-color-2: #292929;
+  --header-text-color: #ffffff;
+  --icon-bg-color: #252726;
+  --icon-bg-front-color: #434343;
+  --icon-border-color: #79797a;
+  --icon-widget-color: #ebebeb;
+  --radio-box-active-color: #0060d1;
+  --radio-box-inactive-color: #b0b0b0;
+  --shadow-color: #242424;
+  --special-button-background-color-1: #edfc74;
+  --special-button-background-color-2: #f5ffa8;
+  --status-bar-color: #191919;
+  --sub-text-color: #000000;
+  --text-color: #ffffff;
+  --view-all-text-color: #ffffff;
+}
+body{
+  background-color: var(--bg-color);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(0, 0, 0);
+}
+.my_tikets{
+  margin: 20px auto;
+  border: 1px solid var(--icon-widget-color);
+  background-color: var(--icon-widget-color);
+  max-width: 600px;
+  color: black;
+}
+#tiket_header{
+  background: rgb(11,11,11);
+  background: linear-gradient(120deg, rgb(14, 13, 13) 90%, rgb(15, 15, 15) 90%, rgb(16, 17, 17) 100%);
+  color: var(--button-bg-inactive-color);
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  z-index: 10000;
+  width: 100%;
+}
+#backimg{
+width: 10px;
+}
+#tiket_header img{
+  margin-left: 5px;
+  margin-top: 12px;
+  height: 12px;
+}
+#tiket_header p{
+margin-top: 10px;
+margin-left: 10px;
+font-size: 16px;
+font-weight: 300;
+}
+.pass_details{
+  font-size: 12px;
+  background-color: rgb(207, 217, 219);
+  text-align: center;
+}
+.ticket_Number{
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  border-radius: 5px;
+  margin: 30px auto;
+  max-width: 600px;
+  width: 95%;
+}
+.viewticket{
+  /* background-color: rgb(255, 255, 255);
+  color: #000000;
+  border-radius: 5px;
+  margin: 30px auto;
+  max-width: 600px;
+  width: 95%; */
+}
+#booking_detail{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dotted-line {
+  border: none;
+  height: 1px; 
+  background: linear-gradient(to right, #4b3939 30%, transparent 30%, transparent 50%, #333 50%);
+  background-size: 10px 10px; 
+  margin: -5px auto; 
+  width: 90%;
+}
+
+#bill_detail{
+  display: flex;
+  flex-direction: row;
+ 
+}
+#bill_detail p{
+  margin: 10px;
+  background-color: rgb(233, 233, 233);
+  height: 10px;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 5px;
+  color: #000;
+}
+#time_detail p{
+  font-size: 12px;
+  margin-right: 5px;
+  font-weight: bold;
+
+}
+.qrdeatils{
+  padding-top: 20px;
+  max-width: 500px;
+  display: none;
+  border-radius: 5px;
+  margin: 10px auto 0 auto;
+  max-width: 600px;
+  width: 95%;
+}
+
+#qrcode{
+  margin: 10px auto;
+  max-width: 700px;
+}
+img{
+  height: 200px;
+  width: 200px;
+}
+.qr-slideshow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rotated {
+  transform: rotate(180deg);
+}
+.arrow {
+  cursor: pointer;
+  font-size: 1.8em;
+  padding: 0 8px;
+  color: black;
+}
+#totalFare{
+  display: flex;
+  flex-direction: column;
+}
+#ticketPrice{
+  margin-top: -10px;
+}
+.qr-code {
+  display: none;
+}
+
+.qr-code.active {
+  display: block;
+}
+
+.slide-dots {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 5px;
+  background-color: #584d4d;
+  border-radius: 50%;
+  display: inline-block;
+}
+.source{
+  margin: -25px auto 10px 13%;
+  text-align: center;
+  display: flex;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.destination{
+  margin: -10px auto 10px 8.99%;
+  text-align: center;
+  display: flex;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 400;
+}
+#next{
+  margin-right: -40px;
+}
+#destination_main{
+  margin-top: -1px;
+  margin-left: -10px;
+}
+.vertical-dotted-line {
+  width: 1px;
+  height: 30px;
+  margin-top: 14px;
+  margin-left: -19px;
+  margin-right: 10px;
+  margin-bottom: -32px;
+  background-color: transparent;
+}
+.dot.active {
+  background-color: #1f1d1d;
+}
+#qrcode img{
+  max-width: 200px;
+  max-height: 200px;
+  margin: 5px auto;
+  margin-bottom: 30px;
+}
+#rout_detail{
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 10px;
+   margin-left: 10px;
+}
+#rout_detail img{
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+#ticket_stations{
+  margin-top: -10px;
+  margin-left: 40px;
+}
+
+#ticket_img{
+  margin-top: 3px;
+}
+.fare_show{
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+}
+.fare_show p{
+  display: flex;
+  flex-direction: row;
+  margin-top: 17px;
+  font-size: x-small;
+  margin-left: px;
+}
+#fareamount{
+  display: flex;
+  flex-direction: row;
+}
+#scan_instrunction{
+  text-align: center;
+  font-weight: 600;
+  font-size: 12px;
+  margin: -20px auto 40px auto ;
+}
+.source_circle{
+  display: flex;
+  flex-direction: row;
+margin-top: 10px;}
+.source_circle2{
+  display: flex;
+  flex-direction: row;
+  margin-left: -8.5px;
+  margin-bottom: 10px;
+}
+.circle{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2px;
+  margin-left: 5px;
+  margin-right: 15px;
+  width: 5px;
+  height: 5px;
+ background-color: rgb(131, 131, 131);
+ border-radius: 50%;
+ outline: none;
+ border: 2px solid  rgb(131, 131, 131);
+}
+.vertical-line {
+  margin-top: 2px;
+  margin-right: -10px;
+  border-left: 2px solid rgb(170, 170, 170);
+  height: 25px;
+  margin-bottom: -20px;
+}
+#showfareimg{
+  height: 50px;
+  width: 50px;
+  margin-top: -1px;
+  background-color: transparent;
+  margin-left: 10px;
+}
+.paymentstatus{
+  display: flex;
+  flex-direction: row;
+}
+.fare_details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+#statusimg{
+ height: 25px;
+ width: 25px;
+ margin-top: 8px;
+ margin-right: 5px;
+}
+.plateform_show{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.plateform_show p{
+margin-top: 6px;
+margin-left: 3px;
+flex-direction: column;
+}
+#plateformImg{
+  height: 25px;
+  width: 25px;
+  margin-left: 15px;
+}
+.viewQr{
+  display: flex;
+  flex-direction: column;
+  margin: 3px auto;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+.arrow_down {
+  display: inline-block;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.arrow_down i {
+  border: 2px solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  transition: transform 0.3s ease-in-out;
+}
+.down{
+
+  text-align: center;
+  margin: 10px auto;
+  padding-bottom: 10px;
+  display: flex;
+  font-weight: 600;
+  font-size: 12px;
+  flex-direction: column;
+}
+.paymentstatus1{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.paymentstatus1 p{
+  width: 90px;
+font-size: x-small;}
+#plateformnNo{
+  font-size: x-small;
+}
+#status{
+  margin-top: -10px;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.valid_date{
+  text-align: center;
+  font-size: 16px;
+  margin: 5px auto 0 auto;
+  font-weight: 600;
+}
+.important_point{
+  margin-top: 25px;
+  margin-left: 10px;
+  font-size: 14px;
+  max-width: 90%;
+}
+.important_point p{
+  font-size: 12px;
+  font-weight: 600;
+}
+.co2{
+  margin-top: -10px;
+  color: green;
+  font-size: 14px;
+}
+.notice_msg{
+  color: red;
+  padding-bottom: 10px;
+}
+@media (max-width: 400px) {
+  #next{
+    margin-top: 30px;
+    margin-right: -40px;
+  }
+  #prev{
+    margin-top: 30px;
+    margin-left: -40px;
+  }
+  #fare_details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: fit-content;
+  }
+  .plateform_show p{
+    margin-top: 3px;
+    margin-left: 3px;
+    }
+    .fare_show p{
+      font-size: x-small;
+      margin-top: 13px;
+      word-spacing: 5px;
+    }
+    .paymentstatus{
+      display: flex;
+      flex-direction: row;
+      margin-top: 5px;
+    }
+    .paymentstatus1 p{
+      margin-top: 4px;
+      width: 80px;
+      font-size: x-small;}
+}

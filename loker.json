@@ -1,0 +1,2457 @@
+[
+    {
+        "id": "640b3a876dff34ef36a16b70",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "11"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "12"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "13"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece002",
+            "code": "ITO",
+            "name": "ITO",
+            "searchKey": "ITO",
+            "searchkey": "ITO"
+        },
+        "status": "active"
+    },
+    {
+        "id": "645dcd35f3ea6b8bb4eb795d",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ecdfca",
+            "code": "BRKR",
+            "name": "BARAKHAMBA ROAD",
+            "searchKey": "BARAKHAMBA ROAD",
+            "searchkey": "BARAKHAMBA ROAD"
+        },
+        "status": "active"
+    },
+    {
+        "id": "646b254a6f2e712ccb24b9a4",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "21"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2
+        ],
+        "penalty": 10,
+        "ecommercePenalty": 10,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece06a",
+            "code": "RCK",
+            "name": "RAJIV CHOWK",
+            "searchKey": "RAJEEV CHOWK, RAJIV CHOWK, CP, CONNAUGHT PLACE",
+            "searchkey": "RAJEEV CHOWK, RAJIV CHOWK, CP, CONNAUGHT PLACE"
+        },
+        "status": "active"
+    },
+    {
+        "id": "6492d93c10bf2f3418feaad2",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 0,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 31,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece0a6",
+            "code": "VASI",
+            "name": "VAISHALI",
+            "searchKey": "VAISHALI",
+            "searchkey": "VAISHALI"
+        },
+        "status": "active"
+    },
+    {
+        "id": "6492d98710bf2f3418feab21",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece01a",
+            "code": "KSHI",
+            "name": "KAUSHAMBI",
+            "searchKey": "KAUSHAMBI",
+            "searchkey": "KAUSHAMBI"
+        },
+        "status": "active"
+    },
+    {
+        "id": "6492d9c010bf2f3418feab62",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece017",
+            "code": "KKDC",
+            "name": "KARKARDUMA COURT",
+            "searchKey": "KARKARDUMA COURT",
+            "searchkey": "KARKARDUMA COURT"
+        },
+        "status": "active"
+    },
+    {
+        "id": "6492da2a10bf2f3418feab72",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ecdffe",
+            "code": "IPE",
+            "name": "I.P. EXTENSION",
+            "searchKey": "I.P. EXTENSION",
+            "searchkey": "I.P. EXTENSION"
+        },
+        "status": "active"
+    },
+    {
+        "id": "6492db3f10bf2f3418feaba3",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece060",
+            "code": "PTVR",
+            "name": "PREET VIHAR",
+            "searchKey": "PREET VIHAR",
+            "searchkey": "PREET VIHAR"
+        },
+        "status": "active"
+    },
+    {
+        "id": "6492dba110bf2f3418feabf5",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece049",
+            "code": "NV",
+            "name": "NIRMAN VIHAR",
+            "searchKey": "NIRMAN VIHAR",
+            "searchkey": "NIRMAN VIHAR"
+        },
+        "status": "active"
+    },
+    {
+        "id": "6492dbdd10bf2f3418feac19",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece02f",
+            "code": "MVP1",
+            "name": "MAYUR VIHAR -I",
+            "searchKey": "MAYUR VIHAR -I",
+            "searchkey": "MAYUR VIHAR -I"
+        },
+        "status": "active"
+    },
+    {
+        "id": "6492dc2d10bf2f3418feac54",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece07f",
+            "code": "SSTN",
+            "name": "SECTOR - 62 NOIDA",
+            "searchKey": "SECTOR - 62 NOIDA",
+            "searchkey": "SECTOR - 62 NOIDA"
+        },
+        "status": "active"
+    },
+    {
+        "id": "6492dc7110bf2f3418feac8d",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece063",
+            "code": "PBGW",
+            "name": "PUNJABI BAGH WEST",
+            "searchKey": "PUNJABI BAGH WEST",
+            "searchkey": "PUNJABI BAGH WEST"
+        },
+        "status": "active"
+    },
+    {
+        "id": "6492dce510bf2f3418feaca3",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ecdfdf",
+            "code": "DSG",
+            "name": "DILSHAD GARDEN",
+            "searchKey": "DILSHAD GARDEN",
+            "searchkey": "DILSHAD GARDEN"
+        },
+        "status": "active"
+    },
+    {
+        "id": "6492dd2410bf2f3418fead27",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece000",
+            "code": "ILOK",
+            "name": "INDERLOK",
+            "searchKey": "INDERLOK",
+            "searchkey": "INDERLOK"
+        },
+        "status": "active"
+    },
+    {
+        "id": "649534dcfd7dd5d929f51f1a",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 29,
+        "ecommercePenaltyExtendMinutes": 27,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ecdfe2",
+            "code": "DM",
+            "name": "DWARKA MOR",
+            "searchKey": "DWARKA MOR",
+            "searchkey": "DWARKA MOR"
+        },
+        "status": "active"
+    },
+    {
+        "id": "64953b73fd7dd5d929f52d3a",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece061",
+            "code": "PBGH",
+            "name": "PULBANGASH",
+            "searchKey": "PULBANGASH",
+            "searchkey": "PULBANGASH"
+        },
+        "status": "active"
+    },
+    {
+        "id": "649d4fe912f8a435c7d2a83c",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece05e",
+            "code": "PTP",
+            "name": "PITAMPURA",
+            "searchKey": "PITAMPURA",
+            "searchkey": "PITAMPURA"
+        },
+        "status": "active"
+    },
+    {
+        "id": "649d503312f8a435c7d2a857",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece0ab",
+            "code": "WC",
+            "name": "WELCOME",
+            "searchKey": "WELCOME",
+            "searchkey": "WELCOME"
+        },
+        "status": "active"
+    },
+    {
+        "id": "649d50db12f8a435c7d2adc7",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece039",
+            "code": "MUDK",
+            "name": "MUNDKA",
+            "searchKey": "MUNDKA",
+            "searchkey": "MUNDKA"
+        },
+        "status": "active"
+    },
+    {
+        "id": "649d972f12f8a435c7d2bdec",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 3,
+        "ecommercePenalty": 3,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece05a",
+            "code": "PAGI",
+            "name": "PEERAGARHI",
+            "searchKey": "PEERAGARHI",
+            "searchkey": "PEERAGARHI"
+        },
+        "status": "active"
+    },
+    {
+        "id": "64a3a58de7e8a087590070a2",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece024",
+            "code": "MAPR",
+            "name": "MADIPUR",
+            "searchKey": "MADIPUR",
+            "searchkey": "MADIPUR"
+        },
+        "status": "active"
+    },
+    {
+        "id": "64abac865e74b332a93767c5",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece018",
+            "code": "KB",
+            "name": "KAROL BAGH",
+            "searchKey": "KAROL BAGH",
+            "searchkey": "KAROL BAGH"
+        },
+        "status": "active"
+    },
+    {
+        "id": "64abd9d25e74b332a9378d48",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ecdfc4",
+            "code": "APMN",
+            "name": "ASHOK PARK MAIN",
+            "searchKey": "ASHOK PARK MAIN",
+            "searchkey": "ASHOK PARK MAIN"
+        },
+        "status": "active"
+    },
+    {
+        "id": "6539f73be8b326635c8e3634",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece091",
+            "code": "SJSU",
+            "name": "SHIVAJI STADIUM",
+            "searchKey": "SHIVAJI STADIUM",
+            "searchkey": "SHIVAJI STADIUM"
+        },
+        "status": "active"
+    },
+    {
+        "id": "653c8564b1390391218f9e21",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece00a",
+            "code": "JNPH",
+            "name": "JANPATH",
+            "searchKey": "JANPATH",
+            "searchkey": "JANPATH"
+        },
+        "status": "active"
+    },
+    {
+        "id": "657953c6a0d51a1f3e2f39c1",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece04d",
+            "code": "NSST",
+            "name": "NOIDA SECTOR-16",
+            "searchKey": "NOIDA SECTOR-16",
+            "searchkey": "NOIDA SECTOR-16"
+        },
+        "status": "active"
+    },
+    {
+        "id": "6579931a4fa9038324bdf89e",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece008",
+            "code": "JPW",
+            "name": "JANAK PURI WEST",
+            "searchKey": "JANAK PURI WEST",
+            "searchkey": "JANAK PURI WEST"
+        },
+        "status": "active"
+    },
+    {
+        "id": "657add11350d5d0da37a8738",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece021",
+            "code": "LLQA",
+            "name": "LAL QUILA",
+            "searchKey": "LAL QUILA",
+            "searchkey": "LAL QUILA"
+        },
+        "status": "active"
+    },
+    {
+        "id": "657c10a4b7349362369e88d9",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ecdfe8",
+            "code": "DSTO",
+            "name": "DWARKA SECTOR - 21",
+            "searchKey": "DWARKA SECTOR - 21",
+            "searchkey": "DWARKA SECTOR - 21"
+        },
+        "status": "active"
+    },
+    {
+        "id": "6583f65dbacd5d425ae50141",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ecdfd0",
+            "code": "CTST",
+            "name": "CENTRAL SECRETARIAT",
+            "searchKey": "CENTRAL SECRETARIAT",
+            "searchkey": "CENTRAL SECRETARIAT"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65840b219067a0178e601d76",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece005",
+            "code": "JAMD",
+            "name": "JAMA MASJID",
+            "searchKey": "JAMA MASJID",
+            "searchkey": "JAMA MASJID"
+        },
+        "status": "active"
+    },
+    {
+        "id": "658d1a784f586ac067d27984",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece094",
+            "code": "SVMB",
+            "name": "SIR M. VISHWESHWARAIAH MOTI BAGH",
+            "searchKey": "SIR M. VISHWESHWARAIAH MOTI BAGH",
+            "searchkey": "SIR M. VISHWESHWARAIAH MOTI BAGH"
+        },
+        "status": "active"
+    },
+    {
+        "id": "658d2ccf4f586ac067d27a74",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ecdfe0",
+            "code": "DDSC",
+            "name": "DURGABAI DESHMUKH SOUTH CAMPUS",
+            "searchKey": "DURGABAI DESHMUKH SOUTH CAMPUS",
+            "searchkey": "DURGABAI DESHMUKH SOUTH CAMPUS"
+        },
+        "status": "active"
+    },
+    {
+        "id": "658e7f8bc894f44e785f9fbe",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece069",
+            "code": "RP",
+            "name": "RAJENDRA PLACE",
+            "searchKey": "RAJENDRA PLACE",
+            "searchkey": "RAJENDRA PLACE"
+        },
+        "status": "active"
+    },
+    {
+        "id": "658e86bdc894f44e785fa236",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ecdfc1",
+            "code": "AVIT",
+            "name": "ANAND VIHAR ISBT",
+            "searchKey": "ANAND VIHAR ISBT",
+            "searchkey": "ANAND VIHAR ISBT"
+        },
+        "status": "active"
+    },
+    {
+        "id": "6593b3e049473f1cc2d63533",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece0a0",
+            "code": "TKPR",
+            "name": "TRILOKPURI-SANJAY LAKE",
+            "searchKey": "TRILOKPURI-SANJAY LAKE",
+            "searchkey": "TRILOKPURI-SANJAY LAKE"
+        },
+        "status": "active"
+    },
+    {
+        "id": "6593c3118aa270ef052e7093",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece030",
+            "code": "MVPO",
+            "name": "MAYUR VIHAR POCKET-1",
+            "searchKey": "MAYUR VIHAR POCKET-1",
+            "searchkey": "MAYUR VIHAR POCKET-1"
+        },
+        "status": "active"
+    },
+    {
+        "id": "6593e33f0131625487ade9fa",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece037",
+            "code": "MN",
+            "name": "MOTI NAGAR",
+            "searchKey": "MOTI NAGAR",
+            "searchkey": "MOTI NAGAR"
+        },
+        "status": "active"
+    },
+    {
+        "id": "659653acf41037041ecc51f2",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece086",
+            "code": "SP",
+            "name": "SHADIPUR",
+            "searchKey": "SHADIPUR",
+            "searchkey": "SHADIPUR"
+        },
+        "status": "active"
+    },
+    {
+        "id": "6597aabdb6a4c2f4cdfcd75b",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ecdff6",
+            "code": "GTBR",
+            "name": "GURU TEG BAHADUR NAGAR",
+            "searchKey": "GURU TEG BAHADUR NAGAR",
+            "searchkey": "GURU TEG BAHADUR NAGAR"
+        },
+        "status": "active"
+    },
+    {
+        "id": "659bd25c74c0ffb58b797e50",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece02d",
+            "code": "MYPI",
+            "name": "MAYAPURI",
+            "searchKey": "MAYAPURI",
+            "searchkey": "MAYAPURI"
+        },
+        "status": "active"
+    },
+    {
+        "id": "659d1f4d9a9767b805361443",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ecdfda",
+            "code": "DLIC",
+            "name": "DELHI CANTT.",
+            "searchKey": "DELHI CANTT.",
+            "searchkey": "DELHI CANTT."
+        },
+        "status": "active"
+    },
+    {
+        "id": "659d2b181bc6f2116e24e882",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece079",
+            "code": "SOJI",
+            "name": "SAROJINI NAGAR",
+            "searchKey": "SAROJINI NAGAR",
+            "searchkey": "SAROJINI NAGAR"
+        },
+        "status": "active"
+    },
+    {
+        "id": "659e4763b0ed160b698017ea",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ecdfc9",
+            "code": "BUSS",
+            "name": "BAHADURGARH CITY",
+            "searchKey": "BAHADURGARH CITY",
+            "searchkey": "BAHADURGARH CITY"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65a0f5ab19d0eaaaa0670e69",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece0a5",
+            "code": "UNW",
+            "name": "UTTAM NAGAR WEST",
+            "searchKey": "UTTAM NAGAR WEST",
+            "searchkey": "UTTAM NAGAR WEST"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65a64a3370f1ca34bf98f600",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece026",
+            "code": "MKPR",
+            "name": "MAJLIS PARK",
+            "searchKey": "MAJLIS PARK",
+            "searchkey": "MAJLIS PARK"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65a65cf970f1ca34bf98f723",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece096",
+            "code": "SN",
+            "name": "SUBHASH NAGAR",
+            "searchKey": "SUBHASH NAGAR",
+            "searchkey": "SUBHASH NAGAR"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65aa5032c5308ea9769b5088",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece07e",
+            "code": "SSON",
+            "name": "SECTOR - 61 NOIDA",
+            "searchKey": "SECTOR - 61 NOIDA",
+            "searchkey": "SECTOR - 61 NOIDA"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65aba3f67cc122df98a7faa2",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ecdff1",
+            "code": "GKPR",
+            "name": "GOKULPURI",
+            "searchKey": "GOKULPURI",
+            "searchkey": "GOKULPURI"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65ae54c6213880b7497eccc6",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece08a",
+            "code": "SAKP",
+            "name": "SHAKURPUR",
+            "searchKey": "SHAKURPUR",
+            "searchkey": "SHAKURPUR"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65b4b0669573cee4ab56f5ea",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece02c",
+            "code": "MUPR",
+            "name": "MAUJPUR-BABARPUR",
+            "searchKey": "MAUJPUR-BABARPUR",
+            "searchkey": "MAUJPUR-BABARPUR"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65b4ba4bd939e0b5ad487d7b",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece010",
+            "code": "JIEE",
+            "name": "JOHRI ENCLAVE",
+            "searchKey": "JOHRI ENCLAVE",
+            "searchkey": "JOHRI ENCLAVE"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65b784cf8f4cba8a05ffc133",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "21"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "21"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 20,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece08c",
+            "code": "SKVR",
+            "name": "SHANKAR VIHAR",
+            "searchKey": "SHANKAR VIHAR",
+            "searchkey": "SHANKAR VIHAR"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65bb35e3643191a2a7da03ba",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece07c",
+            "code": "SFTN",
+            "name": "SECTOR - 52 NOIDA",
+            "searchKey": "SECTOR - 52 NOIDA",
+            "searchkey": "SECTOR - 52 NOIDA"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65be3b2e3cec4eb9e59055ef",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece029",
+            "code": "VNNR",
+            "name": "MANDAWALI - WEST VINOD NAGAR",
+            "searchKey": "MANDAWALI - WEST VINOD NAGAR",
+            "searchkey": "MANDAWALI - WEST VINOD NAGAR"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65c4b05d650265f7e3e556bd",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece09e",
+            "code": "TN",
+            "name": "TILAK NAGAR",
+            "searchKey": "TILAK NAGAR",
+            "searchkey": "TILAK NAGAR"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65cc7a6e4e11bbdb43ac2fab",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "20"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "30"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece08f",
+            "code": "SVVR",
+            "name": "SHIV VIHAR",
+            "searchKey": "SHIV VIHAR",
+            "searchkey": "SHIV VIHAR"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65ccace3ad02bfe7c6913af3",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ecdfc0",
+            "code": "ASDM",
+            "name": "AKSHARDHAM",
+            "searchKey": "AKSHARDHAM",
+            "searchkey": "AKSHARDHAM"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65cde89ac939412ec317946b",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece050",
+            "code": "OKNS",
+            "name": "OKHLA NSIC",
+            "searchKey": "OKHLA NSIC",
+            "searchkey": "OKHLA NSIC"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65d32e6b13b7ea2e6777f263",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece065",
+            "code": "RKPM",
+            "name": "R.K.PURAM",
+            "searchKey": "R.K.PURAM",
+            "searchkey": "R.K.PURAM"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65d334291d6a4acd46de83ce",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece097",
+            "code": "IWNR",
+            "name": "SUKHDEV VIHAR",
+            "searchKey": "SUKHDEV VIHAR",
+            "searchkey": "SUKHDEV VIHAR"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65d888f785eba8d7b4e11150",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece03e",
+            "code": "NNOI",
+            "name": "NANGLOI",
+            "searchKey": "NANGLOI",
+            "searchkey": "NANGLOI"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65dc3e5435d6c21d74e334ca",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ecdffd",
+            "code": "IIT",
+            "name": "IIT",
+            "searchKey": "IIT",
+            "searchkey": "IIT"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65e2c63f1908b5def3c887ad",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece043",
+            "code": "NUEE",
+            "name": "NEHRU ENCLAVE",
+            "searchKey": "NEHRU ENCLAVE",
+            "searchkey": "NEHRU ENCLAVE"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65e31fff1908b5def3c890ed",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece028",
+            "code": "MVNR",
+            "name": "MALVIYA NAGAR",
+            "searchKey": "MALVIYA NAGAR",
+            "searchkey": "MALVIYA NAGAR"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65e573c01792de2e7c269d83",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece095",
+            "code": "SOEN",
+            "name": "SOUTH EXTENSION",
+            "searchKey": "SOUTH EXTENSION",
+            "searchkey": "SOUTH EXTENSION"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65e5ba998a4c65b704f590c8",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Large",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ecdfd4",
+            "code": "CDLI",
+            "name": "CHIRAG DELHI",
+            "searchKey": "CHIRAG DELHI",
+            "searchkey": "CHIRAG DELHI"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65e6b5c4d04fa1410536a381",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece03f",
+            "code": "NRSN",
+            "name": "NANGLOI RAILWAY STATION",
+            "searchKey": "NANGLOI RAILWAY STATION",
+            "searchkey": "NANGLOI RAILWAY STATION"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65e6cbe1d04fa1410536aa53",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece090",
+            "code": "SHVP",
+            "name": "SHIVAJI PARK",
+            "searchKey": "SHIVAJI PARK",
+            "searchkey": "SHIVAJI PARK"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65e842f901223a94847f976b",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ecdff4",
+            "code": "GKEI",
+            "name": "GREATER KAILASH",
+            "searchKey": "GREATER KAILASH",
+            "searchkey": "GREATER KAILASH"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65e8589932455979a53f8b09",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece006",
+            "code": "JANR",
+            "name": "JAMIA MILLIA ISLAMIA",
+            "searchKey": "JAMIA MILLIA ISLAMIA",
+            "searchkey": "JAMIA MILLIA ISLAMIA"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65e9af7fed4ab5e691faec82",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece032",
+            "code": "MGRO",
+            "name": "M.G. ROAD",
+            "searchKey": "M.G. ROAD",
+            "searchkey": "M.G. ROAD"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65eab9fa4fdff1ad61e7bcd3",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece067",
+            "code": "BVHM",
+            "name": "RAJA NAHAR SINGH (BALLABHGARH)",
+            "searchKey": "RAJA NAHAR SINGH (BALLABHGARH)",
+            "searchkey": "RAJA NAHAR SINGH (BALLABHGARH)"
+        },
+        "status": "active"
+    },
+    {
+        "id": "65eac77e27dcb0dbc639e203",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 1,
+        "ecommercePenaltyExtendMinutes": 1,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece075",
+            "code": "NCBC",
+            "name": "SANT SURDAS (SIHI)",
+            "searchKey": "SANT SURDAS (SIHI)",
+            "searchkey": "SANT SURDAS (SIHI)"
+        },
+        "status": "active"
+    },
+    {
+        "id": "6619161b2ed91d24a63ccd6b",
+        "sizes": [
+            {
+                "label": "Small",
+                "pricePerHour": "1"
+            },
+            {
+                "label": "Medium",
+                "pricePerHour": "1"
+            }
+        ],
+        "slots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "penalty": 1,
+        "ecommercePenalty": 1,
+        "penaltyExtendMinutes": 30,
+        "ecommercePenaltyExtendMinutes": 30,
+        "station": {
+            "_id": "639ac2e6e264aca1c1ece083",
+            "code": "S55",
+            "name": "SECTOR 55-56",
+            "searchKey": "SECTOR 55-56",
+            "searchkey": "SECTOR 55-56"
+        },
+        "status": "active"
+    }
+]

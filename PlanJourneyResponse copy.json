@@ -1,0 +1,370 @@
+{
+    "serviceStatus": true,
+    "from": "HINDON RIVER",
+    "from_code": "HDNR",
+    "to": "BATA CHOWK",
+    "to_code": "BACH",
+    "isHoliday": true,
+    "applicableFare": 50,
+    "fare": {
+        "normal": 60,
+        "special": 50
+    },
+    "fare_breakup": [
+        {
+            "from": "HDNR",
+            "to": "BACH",
+            "normal": 60,
+            "special": 50,
+            "interchanges": [
+                {
+                    "start": "HINDON RIVER",
+                    "end": "KASHMERE GATE",
+                    "line": "Red Line",
+                    "line_color": "#c0282c",
+                    "line_no": 1,
+                    "path": [
+                        "HDNR",
+                        "ATHA",
+                        "MNGM",
+                        "SMPK",
+                        "RJNM",
+                        "RJBH",
+                        "SHDN",
+                        "DSG",
+                        "JLML",
+                        "MPK",
+                        "SHD",
+                        "WC",
+                        "SLAP",
+                        "SHPK",
+                        "KG"
+                    ]
+                },
+                {
+                    "start": "KASHMERE GATE",
+                    "end": "BATA CHOWK",
+                    "line": "Violet Line",
+                    "line_color": "#8115ff",
+                    "line_no": 6,
+                    "path": [
+                        "KG",
+                        "LLQA",
+                        "JAMD",
+                        "DLIG",
+                        "ITO",
+                        "MDHS",
+                        "JNPH",
+                        "CTST",
+                        "KM",
+                        "JLNS",
+                        "JGPA",
+                        "LJPN",
+                        "MLCD",
+                        "KHCY",
+                        "NP",
+                        "KJMD",
+                        "GDPI",
+                        "HNOK",
+                        "JLA",
+                        "STVR",
+                        "METE",
+                        "TKDS",
+                        "BAPB",
+                        "SRAI",
+                        "NHPC",
+                        "MMJR",
+                        "STTA",
+                        "BKMR",
+                        "OFDB",
+                        "NCAJ",
+                        "BACH"
+                    ]
+                }
+            ]
+        }
+    ],
+    "metroTime": {
+        "first": "5:32:25",
+        "last": "22:46:53"
+    },
+    "from_station_status": {
+        "status": "Open",
+        "title": "",
+        "note": ""
+    },
+    "to_station_status": {
+        "status": "Open",
+        "title": "",
+        "note": ""
+    },
+    "stations": 45,
+    "routes": [
+        {
+            "direction": "down",
+            "start": "HINDON RIVER",
+            "end": "KASHMERE GATE",
+            "line": "Red Line",
+            "line_color": "#c0282c",
+            "line_no": 1,
+            "map_path": [
+                "HDNR-ATHA",
+                "ATHA-MNGM",
+                "MNGM-SMPK",
+                "SMPK-RJNM",
+                "RJNM-RJBH",
+                "RJBH-SHDN",
+                "SHDN-DSG",
+                "DSG-JLML",
+                "JLML-MPK",
+                "MPK-SHD",
+                "SHD-WC",
+                "WC-SLAP",
+                "SLAP-SHPK",
+                "SHPK-KG"
+            ],
+            "path": [
+                {
+                    "name": "HINDON RIVER",
+                    "status": ""
+                },
+                {
+                    "name": "ARTHALA",
+                    "status": ""
+                },
+                {
+                    "name": "MOHAN NAGAR",
+                    "status": ""
+                },
+                {
+                    "name": "SHYAM PARK",
+                    "status": ""
+                },
+                {
+                    "name": "MAJOR MOHIT SHARMA RAJENDRA NAGAR",
+                    "status": ""
+                },
+                {
+                    "name": "RAJ BAGH",
+                    "status": ""
+                },
+                {
+                    "name": "SHAHEED NAGAR",
+                    "status": ""
+                },
+                {
+                    "name": "DILSHAD GARDEN",
+                    "status": ""
+                },
+                {
+                    "name": "JHILMIL",
+                    "status": ""
+                },
+                {
+                    "name": "MANSAROVAR PARK",
+                    "status": ""
+                },
+                {
+                    "name": "SHAHDARA",
+                    "status": ""
+                },
+                {
+                    "name": "WELCOME",
+                    "status": ""
+                },
+                {
+                    "name": "SEELAMPUR",
+                    "status": ""
+                },
+                {
+                    "name": "SHASTRI PARK",
+                    "status": ""
+                },
+                {
+                    "name": "KASHMERE GATE",
+                    "status": ""
+                }
+            ],
+            "towards_station": "RITHALA",
+            "platform_name": "Platform No. 1",
+            "path_time": "00:32:28",
+            "path_distance": 17.851,
+            "start_time": "04:27:12",
+            "end_time": "04:59:40"
+        },
+        {
+            "direction": "down",
+            "start": "KASHMERE GATE",
+            "end": "BATA CHOWK",
+            "line": "Violet Line",
+            "line_color": "#8115ff",
+            "line_no": 6,
+            "map_path": [
+                "KG-LLQA",
+                "LLQA-JAMD",
+                "JAMD-DLIG",
+                "DLIG-ITO",
+                "ITO-MDHS",
+                "MDHS-JNPH",
+                "JNPH-CTST",
+                "CTST-KM",
+                "KM-JLNS",
+                "JLNS-JGPA",
+                "JGPA-LJPN",
+                "LJPN-MLCD",
+                "MLCD-KHCY",
+                "KHCY-NP",
+                "NP-KJMD",
+                "KJMD-GDPI",
+                "GDPI-HNOK",
+                "HNOK-JLA",
+                "JLA-STVR",
+                "STVR-METE",
+                "METE-TKDS",
+                "TKDS-BAPB",
+                "BAPB-SRAI",
+                "SRAI-NHPC",
+                "NHPC-MMJR",
+                "MMJR-STTA",
+                "STTA-BKMR",
+                "BKMR-OFDB",
+                "OFDB-NCAJ",
+                "NCAJ-BACH"
+            ],
+            "path": [
+                {
+                    "name": "KASHMERE GATE",
+                    "status": ""
+                },
+                {
+                    "name": "LAL QUILA",
+                    "status": ""
+                },
+                {
+                    "name": "JAMA MASJID",
+                    "status": ""
+                },
+                {
+                    "name": "DELHI GATE",
+                    "status": ""
+                },
+                {
+                    "name": "ITO",
+                    "status": ""
+                },
+                {
+                    "name": "MANDI HOUSE",
+                    "status": ""
+                },
+                {
+                    "name": "JANPATH",
+                    "status": ""
+                },
+                {
+                    "name": "CENTRAL SECRETARIAT",
+                    "status": ""
+                },
+                {
+                    "name": "KHAN MARKET",
+                    "status": ""
+                },
+                {
+                    "name": "JLN STADIUM",
+                    "status": ""
+                },
+                {
+                    "name": "JANGPURA",
+                    "status": ""
+                },
+                {
+                    "name": "LAJPAT NAGAR",
+                    "status": ""
+                },
+                {
+                    "name": "MOOLCHAND",
+                    "status": ""
+                },
+                {
+                    "name": "KAILASH COLONY",
+                    "status": ""
+                },
+                {
+                    "name": "NEHRU PLACE",
+                    "status": ""
+                },
+                {
+                    "name": "KALKAJI MANDIR",
+                    "status": ""
+                },
+                {
+                    "name": "GOVINDPURI",
+                    "status": ""
+                },
+                {
+                    "name": "HARKESH NAGAR OKHLA",
+                    "status": ""
+                },
+                {
+                    "name": "JASOLA-APOLLO",
+                    "status": ""
+                },
+                {
+                    "name": "SARITA VIHAR",
+                    "status": ""
+                },
+                {
+                    "name": "MOHAN ESTATE",
+                    "status": ""
+                },
+                {
+                    "name": "TUGHLAKABAD STATION",
+                    "status": ""
+                },
+                {
+                    "name": "BADARPUR BORDER",
+                    "status": ""
+                },
+                {
+                    "name": "SARAI",
+                    "status": ""
+                },
+                {
+                    "name": "NHPC CHOWK",
+                    "status": ""
+                },
+                {
+                    "name": "MEWALA MAHARAJPUR",
+                    "status": ""
+                },
+                {
+                    "name": "SECTOR-28",
+                    "status": ""
+                },
+                {
+                    "name": "BADKAL MOR",
+                    "status": ""
+                },
+                {
+                    "name": "OLD FARIDABAD",
+                    "status": ""
+                },
+                {
+                    "name": "NEELAM CHOWK AJRONDA",
+                    "status": ""
+                },
+                {
+                    "name": "BATA CHOWK",
+                    "status": ""
+                }
+            ],
+            "towards_station": "RAJA NAHAR SINGH (BALLABHGARH)",
+            "platform_name": "Platform No. 5",
+            "path_time": "01:12:28",
+            "path_distance": 39.875,
+            "start_time": "04:27:12",
+            "end_time": "05:39:40"
+        }
+    ],
+    "total_time": "105 mins",
+    "ticketAvailable": false
+}

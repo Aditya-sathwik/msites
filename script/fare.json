@@ -1,0 +1,80 @@
+{
+    "multiple_routes": true,
+    "routes": [
+        {
+            "airport_line_included": true,
+            "total_fare": 60,
+            "total_time": "24 mins",
+            "tickets": [
+                {
+                    "from": {
+                        "code": "DSTO",
+                        "name": "DWARKA SECTOR - 21",
+                        "ticketBookingId": 135,
+                        "ticketBookingIdAirport": 6
+                    },
+                    "to": {
+                        "code": "NDI",
+                        "name": "NEW DELHI (Yellow & Airport Line)",
+                        "ticketBookingId": 25,
+                        "ticketBookingIdAirport": 1
+                    },
+                    "fare": 60,
+                    "airport_line_ticket": true,
+                    "interchanges": [
+                        {
+                            "start": "DWARKA SECTOR - 21",
+                            "end": "NEW DELHI (Yellow & Airport Line)",
+                            "line": "Orange Line",
+                            "line_color": "#f46808",
+                            "line_no": 10
+                        }
+                    ],
+                    "stationsCount": 6
+                }
+            ]
+        },
+        {
+            "airport_line_included": false,
+            "total_fare": 60,
+            "total_time": "64 mins",
+            "tickets": [
+                {
+                    "from": {
+                        "code": "DSTO",
+                        "name": "DWARKA SECTOR - 21",
+                        "ticketBookingId": 135,
+                        "ticketBookingIdAirport": 6
+                    },
+                    "to": {
+                        "code": "NDI",
+                        "name": "NEW DELHI (Yellow & Airport Line)",
+                        "ticketBookingId": 25,
+                        "ticketBookingIdAirport": 1
+                    },
+                    "fare": 60,
+                    "airport_line_ticket": false,
+                    "interchanges": [
+                        {
+                            "start": "DWARKA SECTOR - 21",
+                            "end": "RAJIV CHOWK",
+                            "line": "Blue Line",
+                            "line_color": "#3b76c0",
+                            "line_no": 3
+                        },
+                        {
+                            "start": "RAJIV CHOWK",
+                            "end": "NEW DELHI (Yellow & Airport Line)",
+                            "line": "Yellow Line",
+                            "line_color": "#f6d71a",
+                            "line_no": 2
+                        }
+                    ],
+                    "stationsCount": 30
+                }
+            ]
+        }
+    ],
+    "passengerLimit": 6,
+    "qrBlock": false
+}

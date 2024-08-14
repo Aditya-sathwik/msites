@@ -1,0 +1,342 @@
+:root {
+  --bodycolor:rgb(19, 17, 17);
+  --background:#1b1d1c;
+  --bg-color: #1e201f;
+  --bottom-bg-color: #101d1e;
+  --bottom-text-active-color: #0c5dc5;
+  --bottom-text-inactive-color: #dedede;
+  --button-bg-color: #0060d1;
+  --button-bg-inactive-color: #ffffff;
+  --button-text-color: #ffffff;
+  --button-text-inactive-color: #000000;
+  --check-box-active-color: #0060d1;
+  --check-box-border-color: #0060d1;
+  --check-box-inactive-color: #fafafa;
+  --header-color-1: #191919;
+  --header-color-2: #292929;
+  --header-text-color: #ffffff;
+  --icon-bg-color: #252726;
+  --icon-bg-front-color: #434343;
+  --icon-border-color: #79797a;
+  --icon-widget-color: #ebebeb;
+  --radio-box-active-color: #0060d1;
+  --radio-box-inactive-color: #b0b0b0;
+  --shadow-color: #242424;
+  --special-button-background-color-1: #edfc74;
+  --special-button-background-color-2: #f5ffa8;
+  --status-bar-color: #191919;
+  --sub-text-color: #000000;
+  --text-color: #ffffff;
+  --view-all-text-color: #ffffff;
+  --bordercolor:rgb(116, 105, 105);
+  --ctbg:rgb(20, 19, 19);
+}
+
+body {
+
+  background-color: var(--bg-color);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  color: var(--text-color);
+}
+
+#tiket_header {
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 0px 10px 0px;
+}
+
+.leftMetro {
+  display: flex;
+  align-items: center;
+}
+.leftMetro img {
+  margin-right: 10px;
+}
+
+.ibutton img {
+  width: 24px;
+  height: 24px;
+}
+
+
+.section-container{
+  display: none;
+}
+
+
+.courier-body {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  left: 0;
+  top: 0;
+  padding: 20px 6px;
+  margin: 45px 0 0 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: var(--header-color-2);
+
+}
+
+
+.container{
+overflow-y: auto;
+max-height: 80vh;
+margin-top: 5px;
+}
+
+
+#no-courier{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+border-radius: 5px;
+padding: 0px 0px;
+}
+#no-courier img{
+width: 95%;
+}
+#no-courier h3{
+padding: 10px 0px;
+font-weight: 400;
+}
+#no-courier h4{
+font-weight: 300;
+}
+.box {
+background-color: var(--header-color-2);
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-bottom: 15px;
+
+  position: relative;
+}
+
+
+
+
+.address-card {
+  border-radius: 10px;
+  padding: 15px;
+  position: relative;
+  border: 1px solid var(--icon-border-color);
+  margin-bottom: 10px;
+}
+.address-card h3 {
+  margin: 0 0 10px 0;
+  font-size: 12px;
+}
+.address-card p {
+  margin: 5px 0;
+  font-size: 10px;
+}
+.address-card .buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+#adressp{
+  padding-top: 10px;
+}
+.buttons button {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.buttons .edit-button {
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  padding: 10px 36px;
+}
+.buttons .delete-button {
+  background-color: var(--button-bg-inactive-color);
+  color: var(--button-text-inactive-color);
+  font-weight: 500;
+}
+.home-icon {
+  position: absolute;
+  display: flex;
+  top: 15px;
+  right: 15px;
+  background-color: var(--button-bg-inactive-color);
+  border-radius: 5px;
+  padding: 2px 5px;
+  align-items: center;
+}
+.home-icon img {
+  width: 10px;
+  height: 10px;
+}
+.home-icon p {
+  color: var(--sub-text-color);
+  margin: 0px;
+  padding: 0px 3px;
+}
+
+.conditions {
+  /* margin: -10px auto 20px auto;
+  background-color: var(--header-color-2);
+  padding: 10px;
+  max-width: 600px;
+  border-radius: 10px; */
+
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  left: 0;
+  top: 0;
+  padding: 20px 6px;
+  margin: 45px 0 0 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  border-radius: 20px;
+  background-color: var(--header-color-2);
+}
+
+.form{
+  border: 1px solid var(--icon-border-color);
+  /* overflow-y: auto;
+  max-height: 80vh; */
+  padding: 30px 20px 30px 20px;
+  border-radius: 10px;
+}
+.profile-form{
+  margin-bottom: 35px;
+}
+
+#birthdate-label{
+  top: 0;
+  left: 15px;
+  font-size: 12px;
+
+}
+
+#gender-label{
+background-color: var(--header-color-2);
+}
+
+
+.label-classe {
+  background-color: var(--header-color-2);
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+}
+
+.btn {
+  align-items: center;
+  padding: 6px 50px;
+  width: 100%;
+  font-size: 14px;
+  color: var(--text-color);
+  background-color:var(--button-bg-color);
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.states{
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+}
+#state-name-top{
+  padding-left: 10px;
+}
+#state-name-edit-top{
+  padding-left: 10px;
+}
+
+.radio-buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+
+}
+.floating-box {
+  position: absolute;
+  bottom: 20px;
+  width: calc(100% - 40px); /* 20px margin on each side */
+  max-width: 320px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-weight: bold;
+}
+.floating-box p {
+color: var(--sub-text-color);
+}
+
+.green-bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 5px;
+  height: 100%;
+  background-color: #4CAF50; /* Green color */
+  border-radius: 10px 0 0 10px;
+}
+
+#custom-alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(85, 61, 61, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.alert-content {
+  background-color: var(--headerColor2);
+  
+  padding:20px ;
+  border-radius: 5px;
+
+}
+.alert-heading {
+ font-size: 16px;
+
+}
+.alert-para {
+font-size: 13px;
+padding-top: 5px;
+}
+.alert-buttons {
+display: flex;
+flex-direction: row-reverse;
+
+
+}
+.alertbtn {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(31, 114, 63);
+
+}
+

@@ -1,0 +1,180 @@
+{
+    "serviceStatus": true,
+    "from": "DWARKA SECTOR - 12",
+    "from_code": "DSW",
+    "to": "NEW DELHI (Yellow & Airport Line)",
+    "to_code": "NDI",
+    "isHoliday": true,
+    "applicableFare": 70,
+    "fare": {
+        "normal": 90,
+        "special": 70
+    },
+    "fare_breakup": [
+        {
+            "from": "DSW",
+            "to": "DSTO",
+            "fare": {
+                "normal": 30,
+                "special": 20
+            },
+            "interchanges": [
+                {
+                    "start": "DWARKA SECTOR - 12",
+                    "end": "DWARKA SECTOR - 21",
+                    "line": "Blue Line",
+                    "line_color": "#3b76c0",
+                    "line_no": 3,
+                    "path": [
+                        "DSW",
+                        "DSE",
+                        "DST",
+                        "DSN",
+                        "DSET",
+                        "DSTO"
+                    ]
+                }
+            ]
+        },
+        {
+            "from": "DSTO",
+            "to": "NDI",
+            "fare": {
+                "normal": 60,
+                "special": 50
+            },
+            "airport_line": true,
+            "interchanges": [
+                {
+                    "start": "DWARKA SECTOR - 21",
+                    "end": "NEW DELHI (Yellow & Airport Line)",
+                    "line": "Orange Line",
+                    "line_color": "#f46808",
+                    "line_no": 10,
+                    "path": [
+                        "DSTO",
+                        "APOT",
+                        "DACY",
+                        "DKV",
+                        "SJSU",
+                        "NDI"
+                    ]
+                }
+            ]
+        }
+    ],
+    "metroTime": {
+        "first": "6:13:42",
+        "last": "23:15:39"
+    },
+    "from_station_status": {
+        "status": "Open",
+        "title": "",
+        "note": ""
+    },
+    "to_station_status": {
+        "status": "Open",
+        "title": "",
+        "note": ""
+    },
+    "stations": 11,
+    "routes": [
+        {
+            "direction": "up",
+            "start": "DWARKA SECTOR - 12",
+            "end": "DWARKA SECTOR - 21",
+            "line": "Blue Line",
+            "line_color": "#3b76c0",
+            "line_no": 3,
+            "map_path": [
+                "DSW-DSE",
+                "DSE-DST",
+                "DST-DSN",
+                "DSN-DSET",
+                "DSET-DSTO"
+            ],
+            "path": [
+                {
+                    "name": "DWARKA SECTOR - 12",
+                    "status": ""
+                },
+                {
+                    "name": "DWARKA SECTOR - 11",
+                    "status": ""
+                },
+                {
+                    "name": "DWARKA SECTOR - 10",
+                    "status": ""
+                },
+                {
+                    "name": "DWARKA SECTOR - 9",
+                    "status": ""
+                },
+                {
+                    "name": "DWARKA SECTOR - 8",
+                    "status": ""
+                },
+                {
+                    "name": "DWARKA SECTOR - 21",
+                    "status": ""
+                }
+            ],
+            "towards_station": "DWARKA SECTOR - 21",
+            "platform_name": "Platform No. 2",
+            "path_time": "00:10:44",
+            "path_distance": 5.905,
+            "start_time": "05:50:23",
+            "end_time": "06:01:07"
+        },
+        {
+            "direction": "up",
+            "start": "DWARKA SECTOR - 21",
+            "end": "NEW DELHI (Yellow & Airport Line)",
+            "line": "Orange Line",
+            "line_color": "#f46808",
+            "line_no": 10,
+            "map_path": [
+                "DSTO-APOT",
+                "APOT-DACY",
+                "DACY-DKV",
+                "DKV-SJSU",
+                "SJSU-NDI"
+            ],
+            "path": [
+                {
+                    "name": "DWARKA SECTOR - 21",
+                    "status": ""
+                },
+                {
+                    "name": "AIRPORT (T-3)",
+                    "status": ""
+                },
+                {
+                    "name": "DELHI AEROCITY",
+                    "status": ""
+                },
+                {
+                    "name": "DHAULA KUAN",
+                    "status": ""
+                },
+                {
+                    "name": "SHIVAJI STADIUM",
+                    "status": ""
+                },
+                {
+                    "name": "NEW DELHI (Yellow & Airport Line)",
+                    "status": ""
+                }
+            ],
+            "towards_station": "NEW DELHI (Yellow & Airport Line)",
+            "platform_name": "Platform No. 4",
+            "path_time": "00:23:30",
+            "path_distance": 22.297,
+            "start_time": "05:50:23",
+            "end_time": "06:13:53",
+            "station_interchange_time": 5
+        }
+    ],
+    "total_time": "40 mins",
+    "ticketAvailable": false
+}

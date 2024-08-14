@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lost & Found</title>
+        <link rel="stylesheet" href="../css/lostandfound.css">
+        <link rel="stylesheet" href="../css/input.css">
+        <link rel="stylesheet" href="../css/bottomsheet.css">
+        <link rel="stylesheet" href="../css/stationselector.css">
+
+        <link rel="shortcut icon" href="../assets/Delhi_Metro_logo.svg.png" />
+        <link <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div class="lost-found">
+            <div id="tiket_header">
+                <div class="leftMetro" id="courier-home">
+                    <img src="../assets/leftArrowBold.svg" alt id="backimg">
+                    <p id="mticket"> Lost & Found</p>
+                </div>
+                <!-- <div class="ibutton" id="new-form"><img
+                        src="../svg/Icon_add.svg" alt></div> -->
+            </div>
+
+            <div class="lost-found-body">
+                <div class="radio-group" id="packed-radio-group">
+                    <p id="packed-question">Complain Lost & Found</p>
+                    <div class="radio-buttons" id="packed-radio-buttons">
+                        <label class="form-control-radio" id="lost-item">
+                            <input type="radio"
+                                name="packed" class="packed" id="lost-item"
+                                value="Report lost item" required><span>Report
+                                Lost Item</span>
+
+                        </label>
+                        <label class="form-control-radio">
+                            <input type="radio"
+                                name="packed" class="packed"
+                                id="found-item"
+                                value="Report found item" required> <span>Report
+                                Found Item</span> </label>
+                    </div>
+                    <p class="helper-text">Please select if the package is
+                        packed.</p>
+                </div>
+                <div class="button-div">
+                    <button id="lost" class="next-btn  ">LIST OF LOST &
+                        FOUND ITEMS</button>
+                </div>
+
+                <div class="container" id="lost-found-container">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="b-cont">
+
+         </div>
+        <div id="b-cont1">
+
+         </div>
+
+            <div id="station-selection" class="station-modal">
+                <div class="modal-content">
+                    <div id="modal-container">
+                        <p class="close-btn">&#9664</p>
+                        <h2 id="heading">Search Station</h2>
+
+                        <img id="search-icon2" src="../assets/search2.png"
+                            alt="Search">
+                        <input type="text" id="station-search">
+                        <span class="clear-icon" id="clear-icon" ">
+                            <i class=" fas fa-times">&#10006;</i>
+                        </span>
+
+                    </div>
+
+                    <div class="modal-header" id="imgs">
+                        <img id="search-icon" src="../assets/search2.png"
+                            alt="Search">
+                    </div>
+
+                </div>
+                <div class="modal-body">
+
+                    <ul id="station-list">
+                        <!-- Stations will be populated here -->
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="../apis.js"></script>
+      
+        <script src="../script/lostandfound.js"></script>
+        <script src="../bottomsheet.js"></script>
+    </body>
+
+</html>

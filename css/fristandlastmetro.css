@@ -1,0 +1,865 @@
+/* Andaka main form ki body ki black iccha   bg kuda change chesa*/
+
+:root {
+    /* Background colors */
+    /*     
+    --bgColor: #1e201f; */
+    --bgColor: #111111;
+    --bottomBgColor: #101d1e;
+    --headerColor1: #191919;
+    --headerColor2: #292929;
+    --iconBgColor: #252726;
+    --specialButtonBackgroundColor: #edfc74, #f5ffa8;
+    --statusBarColor: #191919;
+
+    /* Text colors */
+    --bottomTextActiveColor: #0c5dc5;
+    --bottomTextInActiveColor: #dedede;
+    --buttonTextColor: #ffffff;
+    --buttonTextInActiveColor: #000000;
+    --checkBoxInActiveColor: #fafafa;
+    --headerTextColor: #ffffff;
+    --iconBgFrontColor: #434343;
+    --radioBoxInActiveColor: #b0b0b0;
+    --subTextColor: #000000;
+    --textColor: #ffffff;
+    --viewAllTextColor: #ffffff;
+
+    /* Button colors */
+    --buttonBgColor: #0060d1;
+    --buttonBgInActiveColor: #ffffff;
+
+    /* Checkbox and radio button colors */
+    --checkBoxActiveColor: #0060d1;
+    --checkBoxBorderColor: #0060d1;
+    --radioBoxActiveColor: #0060d1;
+
+    /* Icon and shadow colors */
+    --iconBorderColor: #79797a;
+    --iconWidgetColor: #ebebeb;
+    --shadowColor: #242424;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    overflow: hidden;
+
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--subTextColor);
+    margin: 0;
+
+
+
+}
+
+#main-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 1000px;
+    background-color: var(--headerColor1);
+
+}
+
+.hidden {
+    display: none;
+}
+
+
+.navbar {
+    background-color: var(--headerColor1);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+#depart {
+    padding-right: 0px;
+}
+
+#destination {
+    padding-right: 0px;
+}
+
+nav h1 {
+    color: var(--headerTextColor);
+    margin: 0;
+    flex-grow: 1;
+    text-align: left;
+}
+
+nav span {
+    color: var(--headerTextColor);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.select-station {
+    background-color: #2422b8;
+}
+
+.container {
+    background-color: var(--buttonTextInActiveColor);
+    padding: 20px;
+    padding-left: 9px;
+    border-radius: 3px;
+    width: 100%;
+    height: 1000px;
+    max-width: 500px;
+    border-radius: 32px;
+
+
+}
+
+.container form {
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: var(--iconBorderColor);
+    background-color: var(--bgColor);
+    padding: 0px 20px 20px 10px;
+    color: var(--viewAllTextColor);
+    margin: 0px 10px 0px 20px;
+}
+
+.arrow {
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 32px;
+    /* Adjust size as needed */
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 15px;
+
+}
+
+.form-group label {
+    top: 0;
+    font-size: 10px;
+
+}
+
+#advancefilter {
+    color: var(--radioBoxActiveColor);
+}
+
+.floating label {
+    position: absolute;
+    left: 10px;
+    transform: translateY(-50%);
+    background-color: var(--bgColor);
+    padding: 0 5px;
+    transition: all 0.2s ease;
+    pointer-events: none;
+    color: var(--buttonTextColor);
+}
+
+.floating .form-control:focus+label,
+.floating .form-control:not(:placeholder-shown)+label {
+    top: 0px;
+    font-size: 12px;
+    color: var(--buttonTextColor);
+}
+
+.form-control {
+    width: 100%;
+    /* Default width for other input elements */
+    font-family: "Roboto", sans-serif;
+    height: 25px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: var(--bgColor);
+    color: var(--textColor);
+    font-size: 14px;
+    border: 1px solid var(--buttonBgInActiveColor);
+}
+
+.form-control input:active {
+    border: none;
+
+}
+
+.form-group ::placeholder {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    color: white;
+}
+
+/* Specific styles for date and time input elements */
+#date {
+    width: 85%;
+}
+
+#time {
+    width: 85%;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form-row .form-group {
+    flex: 0 0 40%;
+    /* Each input takes 40% of the width */
+}
+
+.form-row .gap {
+    flex: 0 0 10%;
+    /* Gap takes 10% of the width */
+}
+
+
+
+.icon-container {
+    position: fixed;
+    top: 160px;
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 40px;
+    background-color: var(--buttonBgInActiveColor);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+}
+
+#swap-stations {
+    width: 25px;
+    height: 25px;
+}
+
+
+.icon-row {
+    display: flex;
+    align-items: center;
+}
+
+.icon-row .form-group {
+    flex: 1;
+}
+
+.icon-row .form-group:first-child,
+.icon-row .form-group:last-child {
+    flex: 1;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+.radio-group label {
+    font-size: 13px;
+
+}
+
+.radio-group input {
+    margin-right: 5px;
+
+}
+
+.checkbox-group {
+    margin-top: 10px;
+}
+
+.checkbox-group input {
+    margin-right: 5px;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+
+.btn {
+    background-color: var(--buttonBgColor);
+    color: var(--textColor);
+    border: none;
+    border-radius: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: auto;
+}
+
+.reset-link {
+    display: flex;
+    font-size: 13px;
+    margin: auto;
+    justify-content: center;
+    background-color: transparent;
+    color: var(--bottomTextActiveColor);
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+/* Media query for mobile view */
+@media (max-width: 1024px) {
+    .form-row .form-group {
+        flex: 1;
+    }
+
+    .form-row .form-group+.form-group {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    #date {
+        width: 75%;
+    }
+
+    #time-div {
+        right: 10px;
+    }
+
+    .form-control {
+        height: 15px;
+        font-size: 11px;
+
+    }
+
+    .icon-container {
+        top: 142px;
+        width: 35px;
+        height: 35px;
+        border-radius: 13px;
+
+    }
+
+    #swap-stations {
+        height: 20px;
+        width: 20px;
+    }
+
+}
+
+
+/* <--------------------------------station selector styles ---------------------------------> */
+
+
+#station-selection {
+    background-color: var(--bg-color);
+}
+
+.modal-content {
+    background-color: var(--headerColor1);
+    padding: 10px;
+    display: flex;
+    color: var(--textColor);
+
+
+}
+
+
+.modal-header {
+    flex: 50%;
+    justify-content: flex-end;
+}
+
+#heading {
+    margin: 0px;
+    font-size: 17px;
+    margin-left: 12px;
+}
+
+
+.close-btn {
+    color: var(--textColor);
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0px;
+    padding-top: 4px;
+
+}
+
+.modal-body {
+    background-color: var(--bgColor);
+    padding: 10px;
+    border-radius: 6px;
+    border-radius: 20px;
+
+}
+
+
+#modal-container {
+    display: flex;
+    justify-content: flex-start;
+    flex: 50%;
+}
+
+
+
+#station-list {
+    color: var(--headerTextColor);
+    list-style: none;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: var(--headerColor1);
+}
+
+
+
+
+#search-icon {
+    margin-right: 40px;
+    float: right;
+    filter: invert(100%);
+}
+
+#search-icon2 {
+    filter: invert(100%);
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
+    display: none;
+
+}
+
+
+#station-search {
+    display: none;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    padding-bottom: 0px;
+    border-bottom: 1px solid var(--iconBorderColor);
+    background-color: var(--headerColor1);
+    color: var(--textColor);
+
+}
+
+#station-search:focus {
+    outline: none;
+    /* Remove default outline */
+    border: none;
+    /* Remove border */
+    border-bottom: 1px solid var(--iconBorderColor);
+}
+
+#station-list {
+    margin: 0px;
+}
+
+#station-list li {
+    padding: 20px;
+    border-bottom: 1px solid var(--iconBorderColor);
+    justify-content: end;
+}
+
+#station-list li p {
+    display: inline;
+    word-wrap: break-word;
+    /* Allows breaking long words */
+    white-space: normal;
+    /* Allows the text to wrap to the next line */
+    max-width: 200px;
+    /* Set a max width to ensure wrapping occurs */
+
+
+}
+
+#station-list li span {
+    display: inline-block;
+    float: right;
+    padding: 5px;
+    border-radius: 5px;
+
+
+}
+
+#station-selection {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: var(--headerColor1);
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#sec {
+    margin-right: 6px;
+}
+
+
+
+.clear-icon {
+    display: none;
+    cursor: pointer;
+    color: white;
+    /* Set the color to white */
+    padding-right: 10px;
+    border-bottom: 1px solid var(--iconBorderColor);
+
+}
+
+/* <-------------------------------error container -----------------------------------> */
+.modal {
+    /* Ensure modal is hidden by default */
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.error-content {
+    background-color: var(--bgColor);
+    border-radius: 10px;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    color: var(--textColor);
+    width: 90%;
+    max-width: 300px;
+    position: relative;
+}
+
+.error-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.error-btn {
+    color: var(--textColor);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.error-body {
+    margin-top: 10px;
+    position: relative;
+}
+
+.error-icon {
+    position: absolute;
+    top: -67px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#error-message {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 35px;
+}
+
+.error-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.modal-button {
+    background-color: orangered;
+    color: var(--textColor);
+    border: none;
+    padding: 13px 40px 13px 40px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+#navbar-heading {
+    font-size: 13px;
+    padding-left: 7px;
+}
+
+
+
+/* <-------------------------------error container complete -----------------------------------> */
+@media only screen and (max-width: 500px) {
+
+    #navbar-heading {
+        font-size: 13px;
+        padding-left: 7px;
+    }
+
+    .navbar span {
+        font-size: 13px;
+    }
+
+    #station-list li {
+        font-size: 12px;
+
+    }
+
+    #station-list li p {
+        display: inline;
+        word-wrap: break-all;
+        /* Allows breaking long words */
+        white-space: normal;
+        /* Allows the text to wrap to the next line */
+        max-width: 200px;
+        /* Set a max width to ensure wrapping occurs */
+
+
+    }
+
+    #station-list li span {
+        font-size: 8px;
+    }
+
+    .modal-header h2 {
+        font-size: 15px;
+    }
+
+    #search-icon {
+        height: 26px;
+        width: 26px;
+    }
+
+}
+
+
+
+/* <---------------------fare ticket css-------------------------------------------------------> */
+#fare-ticket {
+    display: none;
+}
+
+.fare-card {
+    background-color: #756530;
+    border-radius: 10px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.fare-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.fare-type {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#special-fare {
+   
+    padding-left: 7px;
+}
+
+.circle {
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.circle img {
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: var(--shadowColor);
+    opacity: 65%;
+    margin: 10px 0;
+}
+
+.via {
+    display: flex;
+    align-items: center;
+   
+}
+
+.via img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.info {
+    display: flex;
+    background-color: var(--bottomTextInActiveColor);
+    margin: 0px 10px 0px 20px;
+    padding: 6px;
+    border-bottom: 2px solid white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.info .ibutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+
+}
+
+.info .ibutton img {
+
+    height: 27px;
+    width: auto;
+}
+
+.info .inform p {
+    font-size: 12px;
+    margin-left: 7px;
+    font-weight: 500;
+}
+
+.standing-line {
+    width: 2px;
+    height: 30px; /* or whatever height fits your design */
+    background-color: var(--shadowColor);
+    opacity: 65%;
+    margin: 10px 0;
+}
+.metrotime{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 400px) {
+    .fare-card {
+        background-color: #756530;
+        border-radius: 10px;
+        padding: 10px;
+        width: 105%;
+        height: auto;
+        color: white;
+        text-align: center;
+        box-sizing: border-box;
+    }
+  
+
+    .fare-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .fare-type {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .circle {
+        background-color: white;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5px;
+    }
+
+    .circle img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .fare-type p {
+        margin: 0;
+        color: white;
+        font-size: 11px;
+        white-space: nowrap;
+         margin-bottom: 2px;
+
+    }
+    .metrotime{
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .line {
+        width: 100%;
+        height: 2px;
+        background-color: var(--shadowColor);
+        opacity: 65%;
+        margin: 10px 0;
+    }
+
+    .standing-line {
+        width: 2px;
+        height: 30px; /* or whatever height fits your design */
+        background-color: var(--shadowColor);
+        opacity: 65%;
+        margin: 0px 0;
+    }
+    
+    /* .via {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+
+    .via img {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+
+    .via p {
+        margin: 0;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: self-start;
+    
+    }
+}

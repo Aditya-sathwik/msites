@@ -1,0 +1,145 @@
+:root {
+    --bodycolor:rgb(19, 17, 17);
+    --background:#1b1d1c;
+    --bg-color: #1e201f;
+    --bottom-bg-color: #101d1e;
+    --bottom-text-active-color: #0c5dc5;
+    --bottom-text-inactive-color: #dedede;
+    --button-bg-color: #0060d1;
+    --button-bg-inactive-color: #ffffff;
+    --button-text-color: #ffffff;
+    --button-text-inactive-color: #000000;
+    --check-box-active-color: #0060d1;
+    --check-box-border-color: #0060d1;
+    --check-box-inactive-color: #fafafa;
+    --header-color-1: #191919;
+    --header-color-2: #292929;
+    --header-text-color: #ffffff;
+    --icon-bg-color: #252726;
+    --icon-bg-front-color: #434343;
+    --icon-border-color: #79797a;
+    --icon-widget-color: #ebebeb;
+    --radio-box-active-color: #0060d1;
+    --radio-box-inactive-color: #b0b0b0;
+    --shadow-color: #242424;
+    --special-button-background-color-1: #edfc74;
+    --special-button-background-color-2: #f5ffa8;
+    --status-bar-color: #191919;
+    --sub-text-color: #000000;
+    --text-color: #ffffff;
+    --view-all-text-color: #ffffff;
+    --bordercolor:rgb(116, 105, 105);
+    --ctbg:rgb(20, 19, 19);
+  }
+  
+  body {
+  
+    background-color: var(--bg-color);
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    -webkit-text-size-adjust: 100%;
+    color: var(--text-color);
+  }
+  
+  #tiket_header {
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 10px 0px;
+  }
+  
+  .leftMetro {
+    display: flex;
+    align-items: center;
+  }
+  .leftMetro img {
+    margin-right: 10px;
+  }
+  
+  .ibutton img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .conditions {
+    margin: -10px auto 20px auto;
+    background-color: var(--header-color-2);
+    padding: 10px;
+    max-width: 600px;
+    border-radius: 10px;
+  }
+
+  .form{
+    border: 1px solid var(--icon-border-color);
+    padding: 30px 20px 30px 20px;
+    border-radius: 10px;
+  }
+  .profile-form{
+    margin-bottom: 35px;
+  }
+
+  #birthdate-label{
+    top: 0;
+    left: 15px;
+    font-size: 12px;
+
+  }
+
+  #gender-label{
+background-color: var(--header-color-2);
+  }
+  
+
+  .label-classe {
+    background-color: var(--header-color-2);
+  }
+
+  .button-div {
+    display: flex;
+    justify-content: center;
+  }
+  
+.btn {
+    align-items: center;
+    padding: 6px 50px;
+    width: 100%;
+    font-size: 14px;
+    color: var(--text-color);
+    background-color:var(--button-bg-color);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+
+  .floating-box {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    width: calc(100% - 40px); /* 20px margin on each side */
+    max-width: 320px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-weight: bold;
+}
+.green-bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #4CAF50; /* Green color */
+    border-radius: 10px 0 0 10px;
+}

@@ -1,0 +1,616 @@
+{
+    "station_status": [],
+    "id": "639ac2e6e264aca1c1ecdfe8",
+    "metro_lines": [
+        {
+            "status": "active",
+            "backcolor": "#edf5ff",
+            "code": "LN3",
+            "color": "#3b76c0",
+            "description": "",
+            "distance": 55.56,
+            "firstStation": "DSTO",
+            "id": "639ac208e264aca1c1ecdec0",
+            "juncations": 10,
+            "lastStation": "NECC",
+            "name": "Blue Line",
+            "noOfStation": 50,
+            "rupees": 60,
+            "service": "Normal Service",
+            "showFront": true,
+            "station": [
+                "DSTO",
+                "DSET",
+                "DSN",
+                "DST",
+                "DSE",
+                "DSW",
+                "DSTN",
+                "DSFN",
+                "DW",
+                "DM",
+                "NWD",
+                "UNW",
+                "UNE",
+                "JPW",
+                "JPE",
+                "TN",
+                "SN",
+                "TG",
+                "RG",
+                "RN",
+                "MN",
+                "KNR",
+                "SP",
+                "PN",
+                "RP",
+                "KB",
+                "JW",
+                "RKAM",
+                "RCK",
+                "BRKR",
+                "MDHS",
+                "PTMD",
+                "IDPT",
+                "YB",
+                "ASDM",
+                "MVP1",
+                "MVE",
+                "NAGR",
+                "NSFT",
+                "NSST",
+                "NSET",
+                "BCGN",
+                "GEC",
+                "NCC",
+                "STFN",
+                "SFTN",
+                "SSON",
+                "SFNN",
+                "SSTN",
+                "NECC"
+            ],
+            "subname": "Line 3",
+            "time": 85,
+            "isAlert": false,
+            "version": 1
+        },
+        {
+            "backcolor": "#feede1",
+            "code": "LN10",
+            "color": "#f46808",
+            "description": "",
+            "distance": 24.296999999999997,
+            "firstStation": "NDI",
+            "id": "639ac208e264aca1c1ecdec7",
+            "juncations": 3,
+            "lastStation": "IICC",
+            "name": "Orange Line",
+            "noOfStation": 7,
+            "rupees": 60,
+            "service": "Normal Service",
+            "showFront": true,
+            "station": [
+                "NDI",
+                "SJSU",
+                "DKV",
+                "DACY",
+                "APOT",
+                "DSTO",
+                "IICC"
+            ],
+            "subname": "Airport Express",
+            "time": 22,
+            "backColor": "#feede1",
+            "status": "inactive",
+            "subName": "Line 10",
+            "isAlert": false,
+            "version": 2
+        }
+    ],
+    "station_code": "DSTO",
+    "station_name": "DWARKA SECTOR - 21",
+    "station_commercial_name": "",
+    "station_description": "The Dwarka Sector-21 Metro Station is an underground station located on the  Airport Express Line  also known as “Orange Line” of the  Delhi Metro. This station is located near Asia’s largest residential area, Dwarka. The station provides hassle-free interchange facility with “Blue Line” of the Delhi Metro. The station also provides seamless connectivity to the India’s busiest Airport the IGI Terminal 3 & 2 and New Delhi Railway Station.",
+    "latitude": 28.5522,
+    "longitude": 77.0583,
+    "x_coords": 1926,
+    "y_coords": 5350,
+    "mobile": 8800793197,
+    "landline": 7290045095,
+    "stations_details": [
+        {
+            "id": "6368f52ff46fa66a7f9ad547",
+            "name": "Divyang Friendly Station",
+            "code": "DF",
+            "image": "https://blostem-dev.s3.ap-south-1.amazonaws.com/station-details/3-2-2023--1-04-52-pm-01.png",
+            "status": "active"
+        },
+        {
+            "id": "6368f52ff46fa66a7f9ad54b",
+            "name": "Interchange Station",
+            "code": "interchange",
+            "image": "https://blostem-dev.s3.amazonaws.com/station-details/3-2-2023--4-30-56-pm-08.png",
+            "status": "active"
+        },
+        {
+            "id": "6368f52ff46fa66a7f9ad549",
+            "name": "Lift/Escalator Available",
+            "code": "lift",
+            "image": "https://blostem-dev.s3.ap-south-1.amazonaws.com/station-details/3-2-2023--1-05-16-pm-05.png",
+            "status": "active"
+        }
+    ],
+    "gates": [
+        {
+            "status": "active",
+            "id": "6368d82864da19deee429c4f",
+            "code": "GA2",
+            "name": "Gate No. 2",
+            "location": "DWARKA SECTOR 21 PICK & DROP AREA",
+            "disabled": true,
+            "stationCode": "DSTO"
+        },
+        {
+            "status": "active",
+            "id": "6368d82864da19deee429c50",
+            "code": "GA1",
+            "name": "Gate No. 1",
+            "location": "DWARKA SECTOR 21 PICK & DROP AREA",
+            "disabled": true,
+            "stationCode": "DSTO"
+        },
+        {
+            "status": "active",
+            "id": "6368d82864da19deee429c51",
+            "code": "GA5",
+            "name": "Gate No. 5",
+            "location": "DWARKA SECTOR 21 PICK & DROP AREA",
+            "disabled": true,
+            "stationCode": "DSTO"
+        },
+        {
+            "status": "active",
+            "id": "6368d82864da19deee429c52",
+            "code": "GA4",
+            "name": "Gate No. 4",
+            "location": "DWARKA SECTOR 21 PICK & DROP AREA",
+            "disabled": true,
+            "stationCode": "DSTO"
+        },
+        {
+            "status": "active",
+            "id": "6368d82864da19deee429c53",
+            "code": "GA3",
+            "name": "Gate No. 3",
+            "location": "DWARKA SECTOR 21 PICK & DROP AREA",
+            "disabled": true,
+            "stationCode": "DSTO"
+        }
+    ],
+    "platforms": [
+        {
+            "trainTowards": [
+                {
+                    "code": "NECC",
+                    "name": "NOIDA ELECTRONIC CITY",
+                    "id": "639ac2e6e264aca1c1ece04b"
+                },
+                {
+                    "code": "VASI",
+                    "name": "VAISHALI",
+                    "id": "639ac2e6e264aca1c1ece0a6"
+                }
+            ],
+            "id": "6368e9a4f46fa66a7f9acbaa",
+            "name": "Platform No. 2",
+            "code": "PL 2",
+            "stationCode": "DSTO"
+        },
+        {
+            "trainTowards": [
+                {
+                    "code": "NECC",
+                    "name": "NOIDA ELECTRONIC CITY",
+                    "id": "639ac2e6e264aca1c1ece04b"
+                },
+                {
+                    "code": "VASI",
+                    "name": "VAISHALI",
+                    "id": "639ac2e6e264aca1c1ece0a6"
+                }
+            ],
+            "id": "6368e9a4f46fa66a7f9acbab",
+            "name": "Platform No. 1",
+            "code": "PL 1",
+            "stationCode": "DSTO"
+        },
+        {
+            "trainTowards": [
+                {
+                    "code": "NDI",
+                    "name": "NEW DELHI (Yellow & Airport Line)",
+                    "id": "639ac2e6e264aca1c1ece047"
+                }
+            ],
+            "id": "6368e9a4f46fa66a7f9acbac",
+            "name": "Platform No. 4",
+            "code": "PL 4",
+            "stationCode": "DSTO"
+        },
+        {
+            "trainTowards": [
+                {
+                    "code": "NDI",
+                    "name": "NEW DELHI (Yellow & Airport Line)",
+                    "id": "639ac2e6e264aca1c1ece047"
+                }
+            ],
+            "id": "6368e9a4f46fa66a7f9acbad",
+            "name": "Platform No. 3",
+            "code": "PL 3",
+            "stationCode": "DSTO"
+        },
+        {
+            "trainTowards": [
+                {
+                    "code": "DSTO",
+                    "name": "DWARKA SECTOR - 21",
+                    "id": "639ac2e6e264aca1c1ecdfe8"
+                }
+            ],
+            "id": "6368e9a4f46fa66a7f9acbae",
+            "name": "Platform No. 1",
+            "code": "",
+            "stationCode": "DSTO"
+        }
+    ],
+    "stations_facilities": [
+        {
+            "status": "active",
+            "id": "6368fef39985755989b4a575",
+            "facilityType": "Toilet",
+            "facilityName": "Sulabh Toilet",
+            "facilityImage": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlz\nAAAA3QAAAN0BcFOiBwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJOSURB\nVFiF7dfNi05hGAbw38OIyUdTxgxmphRRyMZqYkOTLOQjk5GFUnamZDWKlbViIX8CpSjykRILYiVl\nId8GjSzGx4TBZDwW57wY857zvu+8p6Tc9ayu67nv69znfs5zHXiEWMV6j7YYoyJXAxZhAYbkx13M\nwUAFXk3RkBa+ju8VuC34WGTxkoBluI8evMrgXce6GOPjwgXEGAdCCKO4F2PsL0dK8SlFF4dJNXBP\nhRBuhxBq2VOogG1YKhnavyLgIk7GGB8WKaChBu6SrBmpJwp9n/8F/JMCahlCIYTd6Cqo9hCO1yQA\nvbiKIo7iCpz4XUBfCCHrRpyGPszDXIwUIKADQ6UZ2INutGeQj2K2ZGZeFFC8DZ3Y+NMY4Bx2ZRmH\ndNM3NNdrQrAfp2OMY07BHazJkhxjHMBTbCqgA1txrZS4pKpDYjgW5yjfgWdoqePpd+IJGmOM/gQP\npAUW5iS4hJuYOoHiqzEsMTfGCUhJByXOaHlGkuk4n76ytVUWbkzzDqJ7DJaxYR/eoSsDn5x2663k\nmt4r+UC1oSldSyUe4hBe4hZWjcuVo7oHH9CZw5mJM3gtsfdf/LLxb9IuRWzIzFGhdb3ox6wczmEc\nycE/oz0Lz72MYozH0nnYnEObkQ5WVgxL5qZsVHMbXsD6CgI+5eCfUs6EBdzAyhx8vmS6s2IQzfUI\n+Iyv5YAQwmzJ2b6cs/8yttQjoFV2i7dIfmie5+w/i54QwrRyYDV+oBUjIYSmMth2XMnASvEAo9iI\nU+PQKr5i3ar7fa+0DpbL/wPoRrcBzwYD2AAAAABJRU5ErkJggg==",
+            "purpose": "Toilet",
+            "locationDescription": "East side circulating area",
+            "nearestGateCode": [],
+            "nearestPlatformCode": [],
+            "nearestLift": [],
+            "stationCode": "DSTO"
+        },
+        {
+            "status": "active",
+            "id": "6368fef39985755989b4a576",
+            "facilityType": "Toilet",
+            "facilityName": "Sulabh Toilet",
+            "facilityImage": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlz\nAAAA3QAAAN0BcFOiBwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJOSURB\nVFiF7dfNi05hGAbw38OIyUdTxgxmphRRyMZqYkOTLOQjk5GFUnamZDWKlbViIX8CpSjykRILYiVl\nId8GjSzGx4TBZDwW57wY857zvu+8p6Tc9ayu67nv69znfs5zHXiEWMV6j7YYoyJXAxZhAYbkx13M\nwUAFXk3RkBa+ju8VuC34WGTxkoBluI8evMrgXce6GOPjwgXEGAdCCKO4F2PsL0dK8SlFF4dJNXBP\nhRBuhxBq2VOogG1YKhnavyLgIk7GGB8WKaChBu6SrBmpJwp9n/8F/JMCahlCIYTd6Cqo9hCO1yQA\nvbiKIo7iCpz4XUBfCCHrRpyGPszDXIwUIKADQ6UZ2INutGeQj2K2ZGZeFFC8DZ3Y+NMY4Bx2ZRmH\ndNM3NNdrQrAfp2OMY07BHazJkhxjHMBTbCqgA1txrZS4pKpDYjgW5yjfgWdoqePpd+IJGmOM/gQP\npAUW5iS4hJuYOoHiqzEsMTfGCUhJByXOaHlGkuk4n76ytVUWbkzzDqJ7DJaxYR/eoSsDn5x2663k\nmt4r+UC1oSldSyUe4hBe4hZWjcuVo7oHH9CZw5mJM3gtsfdf/LLxb9IuRWzIzFGhdb3ox6wczmEc\nycE/oz0Lz72MYozH0nnYnEObkQ5WVgxL5qZsVHMbXsD6CgI+5eCfUs6EBdzAyhx8vmS6s2IQzfUI\n+Iyv5YAQwmzJ2b6cs/8yttQjoFV2i7dIfmie5+w/i54QwrRyYDV+oBUjIYSmMth2XMnASvEAo9iI\nU+PQKr5i3ar7fa+0DpbL/wPoRrcBzwYD2AAAAABJRU5ErkJggg==",
+            "purpose": "Toilet",
+            "locationDescription": "East side parking area",
+            "nearestGateCode": [],
+            "nearestPlatformCode": [],
+            "nearestLift": [],
+            "stationCode": "DSTO"
+        },
+        {
+            "status": "active",
+            "id": "6368fef39985755989b4a577",
+            "facilityType": "Travel",
+            "facilityName": "SMART E",
+            "facilityImage": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlz\nAAAA7AAAAOwBeShxvQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAIUSURB\nVFiFzdc9aFRBFAXgTxPxD0RFO0VLCy1E0+gKggFBOxErwVIQJKVYZbcJWFpqZWEhok0QtVAIZNMI\n1iqkCeIPaKtGEWIxs/Fl9s3m7XM38cAwvDsz5569c2fuLP8hduEuPmJpQO0D7mBn6mxj8j2KZ/iB\nY9gwoHYcPyP3SOqwiLP4hQk0o62pG2W21eZOYDb6eJpZ7yamcoMDwFT0sYw0ApsxhhtDEjCGuV4C\n2tgiJGIVNArrqmBrakgFLOJJH4TNpK86PytgPPZVBfwz0mO45ugImBMujMk18DkZfc0WBZwQLozW\nGghoRV8NunOgKhqZ775zp66A8cx33wLqJmGZ8Fo/po6Aw7hWYr+Oo3UFtFU7BQeFijZfMvYO03FO\nL6w4BZ2wnYp9s8fCPXiOW3gbbcXka+NQnNPA1wxPq+inbN9OKi9GF4Vavl14K3TmEt4PHYwIUXqU\n4e5ZjAgFIy1Gl/AGL5Ox17Ev2h7jCK7iYQn3CpQJeKF7K27jC36XzC/DKPbiU2JPebNHZxse4Izw\nerks7OvpigJm8EpIyiJHF3LH8Ao2YR925BavgkocOQFLwn1NCHud+6ISR474Hr7js5Dh92sIqMSR\n5sA37BdeRheSsZnY+kHKsRvvey04INxyg/pDkrb56GMZaQQW/A1VM9PXRWf9QtE4zCdZUwXR6/4m\nLMN5IQk7+7aIc+vIM1z8Abz7kf0vXCBsAAAAAElFTkSuQmCC",
+            "purpose": "Connectivity to Near By Areas",
+            "locationDescription": "outside Pick and drop area",
+            "nearestGateCode": [],
+            "nearestPlatformCode": [],
+            "nearestLift": [],
+            "stationCode": "DSTO"
+        },
+        {
+            "status": "active",
+            "id": "6368fef39985755989b4a578",
+            "facilityType": "Travel",
+            "facilityName": "UBER KIOSK",
+            "facilityImage": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlz\nAAAA7AAAAOwBeShxvQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAIUSURB\nVFiFzdc9aFRBFAXgTxPxD0RFO0VLCy1E0+gKggFBOxErwVIQJKVYZbcJWFpqZWEhok0QtVAIZNMI\n1iqkCeIPaKtGEWIxs/Fl9s3m7XM38cAwvDsz5569c2fuLP8hduEuPmJpQO0D7mBn6mxj8j2KZ/iB\nY9gwoHYcPyP3SOqwiLP4hQk0o62pG2W21eZOYDb6eJpZ7yamcoMDwFT0sYw0ApsxhhtDEjCGuV4C\n2tgiJGIVNArrqmBrakgFLOJJH4TNpK86PytgPPZVBfwz0mO45ugImBMujMk18DkZfc0WBZwQLozW\nGghoRV8NunOgKhqZ775zp66A8cx33wLqJmGZ8Fo/po6Aw7hWYr+Oo3UFtFU7BQeFijZfMvYO03FO\nL6w4BZ2wnYp9s8fCPXiOW3gbbcXka+NQnNPA1wxPq+inbN9OKi9GF4Vavl14K3TmEt4PHYwIUXqU\n4e5ZjAgFIy1Gl/AGL5Ox17Ev2h7jCK7iYQn3CpQJeKF7K27jC36XzC/DKPbiU2JPebNHZxse4Izw\nerks7OvpigJm8EpIyiJHF3LH8Ao2YR925BavgkocOQFLwn1NCHud+6ISR474Hr7js5Dh92sIqMSR\n5sA37BdeRheSsZnY+kHKsRvvey04INxyg/pDkrb56GMZaQQW/A1VM9PXRWf9QtE4zCdZUwXR6/4m\nLMN5IQk7+7aIc+vIM1z8Abz7kf0vXCBsAAAAAElFTkSuQmCC",
+            "purpose": "TAXI",
+            "locationDescription": "Unpaid Concourse near gate no. 01",
+            "nearestGateCode": [],
+            "nearestPlatformCode": [],
+            "nearestLift": [],
+            "stationCode": "DSTO"
+        },
+        {
+            "status": "active",
+            "id": "6368fef39985755989b4a579",
+            "facilityType": "Shop/Office",
+            "facilityName": "WH SMITH",
+            "facilityImage": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlz\nAAAA7AAAAOwBeShxvQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAMpSURB\nVFiFxddNiFZlFAfw36uvHzNKRl9aOVKOLiqVKC3IskVhRGQSKRW0qWhjFH0srGhrULQMWvRBuxKS\nEtQIhyDaZWmo2WKaQqOaRZZNqQ3ptDjn9j5ze8dmhvk48Nx7z/+er3uf/3Puc5lmaRTXHbgTMyc5\n5xnswan6jecwiOM5BjBU6MdxNvFK/ytH6XO25jNU8xnMXMOkgV5sLbBn8XWhz83gNxXY2zkqWZs2\nHQV2BM/UHrQPM1QHrMcSvFMY3oa9hb40C+2rV19IX9pcUWB7M1Ylb2Exbi8LeAwf4KfUZ+MW9BSO\n3TiJ/nMU8HPadBdYD27FnNT78WHm1MQi3I3XsKlINg8XF9h6nMB9RfDqSTcV2AncozUNC9CJp/Bt\nYj9gCxY1MuB2/FYEmZPj9wLrECvkjwKbl+c/C2y+YHrJ8vO0CFvJ+dgsD/XX+iQO1LBt+KiG1Uko\nbbbVsAMZs5R+bJ5hmqUplk2zhs9sgzVHwNrFbGdXb3BVbqtEs7gubzREpzqtRbIm9uEXXJhYJ74T\nS68zsYtEs/m8SHilmPvdWp13deZcVQHv4g68j6uyqCOiN+zEGlwu5m0+PhZLa3YGPY1PM8YAFgqm\n78MGHM24X+EbQfzdeLDiwAuClZfiy6xwHV5JvCextXgTF2SxN+IG7EjsDdEpV+MTsQRfzlhrsD9z\nLMCLCunOV9Jl8qUrc3UzMome15rXdrIf7+X1/bh2FIlP+u/y/JcU3eJjtETMay92pVNdlmEWVqZ+\nSHzhes+RvBN3pe+g4MQyrc44bAr+bzoex8FCPyTaaiXL8WrNp3ztw6ZgohvRckG+paN1mMgCquQH\n8cB0FPA0vsBGPIzXR+PUbhWMV7aI1vqE4MBDU1XAkCDmRrE61omW/UgOYjtX2U54AVuxotD3jGC3\nHd+Llj6hBezKMS5pii9e9QQrxWusri9p49MldkfXjzPnwjyvwJmG6HYdI9tPqpxqCGJswGdTnPxm\n7Kw4MIBfp7iAAeJjNCg2FH+PwXkHHhV/T7PwktgL3DuGGE3MbYhNxmVjcITD4rdtsXiIY7ga14wx\nzo9jtJ94+Qf0DrXpsPErOAAAAABJRU5ErkJggg==",
+            "purpose": "Water, Snacks, Eatables",
+            "locationDescription": "Paid concourse",
+            "nearestGateCode": [],
+            "nearestPlatformCode": [],
+            "nearestLift": [],
+            "stationCode": "DSTO"
+        },
+        {
+            "status": "active",
+            "id": "6368fef39985755989b4a57a",
+            "facilityType": "Malls & Market",
+            "facilityName": "Pacific D-21 Mall",
+            "facilityImage": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlz\nAAAA7AAAAOwBeShxvQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAKSSURB\nVFiF5dZPiFVVHAfwz5v3pkEXM/nGFukgTLYIphELJJMgHFzJVIRSixGDFkIE48ZFUZtcKYKoEOGi\nlZs2AwoOGKkUFAbRMEFB1IzhRiwqqoGZxcyoi/O7dec17973HjKz8AuX3znn/v587++e8zs/HnZU\nCt5tKrG9h79i/GiJr7xuSwQ+wW4sl5A4FD4ulOh14VscLNH7F7Oot6rcAurh83+oFRhV8DqOl+gV\nYQnv41ozhTLHoziF60GoS/ot1ZAbsJCbZzLDCF4uItBVEPxeyDu4iZ04i1dwDIO4ils4Hzpv4rEY\n3wzbQrST2keCxDA+w6v4AnvQnfugahs+1fAC9luZjbrVT8g5/BDB9+JnKcU9eCJstqAPfzfY1nEi\nN7+LyRom8IG0YTLkxxmm8RNmpK+cxCUcwD84gi+ljMzh0wb7Jem3ZKhhoiJtsE1Wbp6nsRVnpHrQ\n+DWtog9f4yhu4/vcuyr+qOFdaae/FWSex+c5xZOx3glG8GKMf8NruBHrH+G9bBPO4xf/pWkx5+QA\ndnVIYBt+j/Fi+F6KWPO0dgqmMdUhgWcxUKRQRCCrA1/hcocEFqRq2hRFhWhN0C6BQ/iz5Blrx2H2\nC/qlwtKDfVKNXw2TysvrN03WN4TvnojVnycwgDek43YEvU2cjEt3wUzMnwr5Y8gncVG6QRvRG76v\nR6yBPIHvpDOaYdW7W6r5H+PDmL8TMiuxb+PxJra/NsS4wvpuwkUsdtpoPAiMYW49MzCK+npm4DBm\n170Q1aQOZ0hqqzJsxmk8F+OXYn2XdInsiPnOkIMhh7BRastIl9H28LW5IcYQhivS8RiXOpS1RBVn\nK1JX84yVV/BaoBtTWd/Xq81m8gFgWWrlHnLcB/zwhFRtWdPNAAAAAElFTkSuQmCC",
+            "purpose": "Cinema, Clothing, Food Mart, Medicines, Bar",
+            "locationDescription": "At Ground and Upper Level of Station",
+            "nearestGateCode": [],
+            "nearestPlatformCode": [],
+            "nearestLift": [],
+            "stationCode": "DSTO"
+        },
+        {
+            "status": "active",
+            "id": "6368fef39985755989b4a57b",
+            "facilityType": "Toilet",
+            "facilityName": "Sulabh Toilet",
+            "facilityImage": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlz\nAAAA3QAAAN0BcFOiBwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJOSURB\nVFiF7dfNi05hGAbw38OIyUdTxgxmphRRyMZqYkOTLOQjk5GFUnamZDWKlbViIX8CpSjykRILYiVl\nId8GjSzGx4TBZDwW57wY857zvu+8p6Tc9ayu67nv69znfs5zHXiEWMV6j7YYoyJXAxZhAYbkx13M\nwUAFXk3RkBa+ju8VuC34WGTxkoBluI8evMrgXce6GOPjwgXEGAdCCKO4F2PsL0dK8SlFF4dJNXBP\nhRBuhxBq2VOogG1YKhnavyLgIk7GGB8WKaChBu6SrBmpJwp9n/8F/JMCahlCIYTd6Cqo9hCO1yQA\nvbiKIo7iCpz4XUBfCCHrRpyGPszDXIwUIKADQ6UZ2INutGeQj2K2ZGZeFFC8DZ3Y+NMY4Bx2ZRmH\ndNM3NNdrQrAfp2OMY07BHazJkhxjHMBTbCqgA1txrZS4pKpDYjgW5yjfgWdoqePpd+IJGmOM/gQP\npAUW5iS4hJuYOoHiqzEsMTfGCUhJByXOaHlGkuk4n76ytVUWbkzzDqJ7DJaxYR/eoSsDn5x2663k\nmt4r+UC1oSldSyUe4hBe4hZWjcuVo7oHH9CZw5mJM3gtsfdf/LLxb9IuRWzIzFGhdb3ox6wczmEc\nycE/oz0Lz72MYozH0nnYnEObkQ5WVgxL5qZsVHMbXsD6CgI+5eCfUs6EBdzAyhx8vmS6s2IQzfUI\n+Iyv5YAQwmzJ2b6cs/8yttQjoFV2i7dIfmie5+w/i54QwrRyYDV+oBUjIYSmMth2XMnASvEAo9iI\nU+PQKr5i3ar7fa+0DpbL/wPoRrcBzwYD2AAAAABJRU5ErkJggg==",
+            "purpose": "Toilet",
+            "locationDescription": "West side circulating area",
+            "nearestGateCode": [],
+            "nearestPlatformCode": [],
+            "nearestLift": [],
+            "stationCode": "DSTO"
+        }
+    ],
+    "parkings": [
+        {
+            "status": "active",
+            "id": "6368e895f46fa66a7f9aca75",
+            "provider": "DMRC Authorised Parking",
+            "capacityCar": 80,
+            "capacityMotorcycle": 150,
+            "capacityCycle": 15,
+            "stationCode": "DSTO",
+            "code": "PA1",
+            "nearestGateCode": [],
+            "location": "Outside Metro Station"
+        },
+        {
+            "status": "active",
+            "id": "6368e895f46fa66a7f9aca76",
+            "provider": "DMRC Authorised Parking",
+            "capacityCar": 120,
+            "capacityMotorcycle": 250,
+            "capacityCycle": 25,
+            "stationCode": "DSTO",
+            "code": "PA2",
+            "nearestGateCode": [],
+            "location": "Outside Metro Station"
+        }
+    ],
+    "nearby_places": [
+        {
+            "id": "6368e6daf46fa66a7f9ac624",
+            "groupName": "Shopping",
+            "typesOfPlace": "Mall",
+            "typesOfPlaceImage": "",
+            "name": "Pacific D-21",
+            "photographMapping": "/media/original_images/Placeholder.webp",
+            "connectedWithMetro": 1,
+            "distanceFromMetro": 0.1,
+            "estimatedWalkingTimeMin": 1,
+            "estimatedPubTransportTimeMin": 1,
+            "nearestMetroStation": "DSTO",
+            "stationCode": "DSTO",
+            "nearestGate": [],
+            "status": "active"
+        },
+        {
+            "id": "6368e6daf46fa66a7f9ac625",
+            "groupName": "Travel",
+            "typesOfPlace": "Railway Station",
+            "typesOfPlaceImage": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlz\nAAAAsQAAALEBxi1JjQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAN8SURB\nVFiFxddLiJdVFADw39GJnFRIhIEIAntpmRBuWlRaaeCm0RZGD4vJVdEiUckk0AxFkixaREaRUtFz\nk7gResxGSemBlIjYgyHUIsgHYYYZp8W9o/9m/v+Z+c9YHbh85/vO+3HvPZ/M1GyhGx/jOHKU63jV\n0d3KTlRj/4CI2IgV2IJPcWIQ08jgUtyBR7A5M1cP4mgS+TycxdxWXre7MLfqnDdsBiLiDXRk5v2j\njLopRMTbOJuZDzV+72jCOxsvV6HAAtw0Srt7sTNLlLvx6ECGZg5MwqmKr8Fq7GlhYEZ9HmxBfxIb\nsa7qnDSIo0m9vsUDFT+I5UPUdhu2DUFfjoMV70HfQJ5mGbi7IaIJONYiupHAsaqjJQxyIDP3j8Fg\n2zBu4IeI2B4RN/9XDjQrwQr8+L85kJnfNb5qkqU2YFzVMXIHImILtmTmPuUcXxMRV7SQv7HKPN2C\n3oOP2nJAOXj2YB+eUjr5thby/XdEK/p72NyuA+cgM3/BqqF4xgpDOhARHViI67A1M49ExCzlgIkm\nIrsy87Vash58jR2Z+VcrG8M12GrlSl6ALyLiomH4RcQEfIX5eLU62xqaHJ996Kn4l1iJi3EGt47g\n6r0Tv2N8DWB3u0dxI3yo9MAi/Io9w5UAb1UHepXSbRrKQDMHzmJmxTfigPM98Ge5oVtDZv4REbOV\niJ/HjkqaWXUPEhiYwsU4rcwEHRdgGuqouk5j8SB6E4FOHFFq/gmmjMH4lKrjTNXZORIHVuIopitD\nxCFMb6A/jGUNDfdcxWfg/Qa+6VX2VMWPYuWQTRgRk5UpZi0m12z0Kc33bE3jPeiMiFS22qyIOIwb\ncFdELFNmgFX4HFdXXRuwLiJeyczfztlsHEojYm2N8Fq8WJ/zldFskead3wxS2UHPKPfJITxen1sz\nc915zvMpm4qTWFojP4ElF6AJl1RdnVX3SUztp5/LQERsUo7d63Ef3lQaZ/DWaQ86cDkexDvKtt6e\nmU9QSxARl+F7LM3MdyOiVzlMPhij8X5YjEsy8/aIuBev46rM/KnfgZdwi3K/X6lMxi/gm1Ea/Dkz\nd0ZEF7qUJtyNa/CDctXvyszHYJqyT7trOdYrW6dvDOszpeYLsaHqPYD1Fe+uNqdRZvu9lTAehw3x\nLzCGZlxRdY+v73urbb2YUz9OxH50/QsOdFXdE+v7HPT+DRI2flvXRxpAAAAAAElFTkSuQmCC",
+            "name": "Shahabad Railway Station",
+            "photographMapping": "/media/original_images/Placeholder.webp",
+            "connectedWithMetro": 0,
+            "distanceFromMetro": 2.5,
+            "estimatedWalkingTimeMin": 23,
+            "estimatedPubTransportTimeMin": 8,
+            "nearestMetroStation": "DSTO",
+            "stationCode": "DSTO",
+            "nearestGate": [],
+            "status": "active"
+        },
+        {
+            "id": "6368e6daf46fa66a7f9ac626",
+            "groupName": "Travel",
+            "typesOfPlace": "Bus Stand",
+            "typesOfPlaceImage": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlz\nAAAA7AAAAOwBeShxvQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAIUSURB\nVFiFzdc9aFRBFAXgTxPxD0RFO0VLCy1E0+gKggFBOxErwVIQJKVYZbcJWFpqZWEhok0QtVAIZNMI\n1iqkCeIPaKtGEWIxs/Fl9s3m7XM38cAwvDsz5569c2fuLP8hduEuPmJpQO0D7mBn6mxj8j2KZ/iB\nY9gwoHYcPyP3SOqwiLP4hQk0o62pG2W21eZOYDb6eJpZ7yamcoMDwFT0sYw0ApsxhhtDEjCGuV4C\n2tgiJGIVNArrqmBrakgFLOJJH4TNpK86PytgPPZVBfwz0mO45ugImBMujMk18DkZfc0WBZwQLozW\nGghoRV8NunOgKhqZ775zp66A8cx33wLqJmGZ8Fo/po6Aw7hWYr+Oo3UFtFU7BQeFijZfMvYO03FO\nL6w4BZ2wnYp9s8fCPXiOW3gbbcXka+NQnNPA1wxPq+inbN9OKi9GF4Vavl14K3TmEt4PHYwIUXqU\n4e5ZjAgFIy1Gl/AGL5Ox17Ev2h7jCK7iYQn3CpQJeKF7K27jC36XzC/DKPbiU2JPebNHZxse4Izw\nerks7OvpigJm8EpIyiJHF3LH8Ao2YR925BavgkocOQFLwn1NCHud+6ISR474Hr7js5Dh92sIqMSR\n5sA37BdeRheSsZnY+kHKsRvvey04INxyg/pDkrb56GMZaQQW/A1VM9PXRWf9QtE4zCdZUwXR6/4m\nLMN5IQk7+7aIc+vIM1z8Abz7kf0vXCBsAAAAAElFTkSuQmCC",
+            "name": "DTC Bus Stand",
+            "photographMapping": "/media/original_images/Placeholder.webp",
+            "connectedWithMetro": 1,
+            "distanceFromMetro": 0.2,
+            "estimatedWalkingTimeMin": 2,
+            "estimatedPubTransportTimeMin": 1,
+            "nearestMetroStation": "DSTO",
+            "stationCode": "DSTO",
+            "nearestGate": [],
+            "status": "active"
+        },
+        {
+            "id": "6368e6daf46fa66a7f9ac627",
+            "groupName": "Emergency",
+            "typesOfPlace": "Hospital",
+            "typesOfPlaceImage": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlz\nAAAA7AAAAOwBeShxvQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEgSURB\nVFiF3VfREYIwDH14ToCuyQ44g2vKDPghOUNs0oRQOX13PQpNXtP0EQrwA5gAzBvbY48A5pa+pwT5\ngPdKh60k50QAFwA31m8GmUa5cisTTbaAVt4BuC+tW541yUTTDHTOAEp2Y+Xe8g1BW4XnLXC/wrVi\nsxXuImVNQmMUJDmWMiBtqryyDkwAeta/srEer/0k0lIdkDYe3lWks/HsgXoGpI2HN2YYRJVXFiIu\nxkkZi2igyis18LE3DBkNWLwAc+CRyn3MaMDiXd0crgELGQ2oKNUBnjaObB3QeIGCQ2kso4HqnG6x\nBPFfIiSM0L9wY2FCExER8gBkX17lIUTljVTCCORJSOXN/BdYcB/DWgXg1sDhGSBQAflm2+XHNY0n\nKaT6kUw0VB8AAAAASUVORK5CYII=",
+            "name": "Artemis Hospital",
+            "photographMapping": "/media/original_images/Placeholder.webp",
+            "connectedWithMetro": 0,
+            "distanceFromMetro": 2,
+            "estimatedWalkingTimeMin": 15,
+            "estimatedPubTransportTimeMin": 10,
+            "nearestMetroStation": "DSTO",
+            "stationCode": "DSTO",
+            "nearestGate": [],
+            "status": "active"
+        }
+    ],
+    "lifts": [
+        {
+            "status": "active",
+            "id": "6368e088f46fa66a7f9abe9e",
+            "name": "Escalator 2",
+            "descriptionLocation": "Paid Concourse to Platfrom",
+            "door": "Inside",
+            "disabled": false,
+            "stationCode": "DSTO",
+            "type": "Escalator",
+            "code": "EC2",
+            "toGate": [],
+            "fromGate": [],
+            "toPlatform": [],
+            "fromPlatform": []
+        },
+        {
+            "status": "active",
+            "id": "6368e088f46fa66a7f9abe9f",
+            "name": "Escalator 1",
+            "descriptionLocation": "Paid Concourse to Platfrom",
+            "door": "Inside",
+            "disabled": false,
+            "stationCode": "DSTO",
+            "type": "Escalator",
+            "code": "EC1",
+            "toGate": [],
+            "fromGate": [],
+            "toPlatform": [],
+            "fromPlatform": []
+        },
+        {
+            "status": "active",
+            "id": "6368e088f46fa66a7f9abea0",
+            "name": "Lift No. 2",
+            "descriptionLocation": "Paid Concourse to Platfrom",
+            "door": "Inside",
+            "disabled": true,
+            "stationCode": "DSTO",
+            "type": "Lift",
+            "code": "LA2",
+            "toGate": [],
+            "fromGate": [],
+            "toPlatform": [],
+            "fromPlatform": []
+        },
+        {
+            "status": "active",
+            "id": "6368e088f46fa66a7f9abea1",
+            "name": "Lift No. 1",
+            "descriptionLocation": "Paid Concourse to Platfrom",
+            "door": "Inside",
+            "disabled": true,
+            "stationCode": "DSTO",
+            "type": "Lift",
+            "code": "LA1",
+            "toGate": [],
+            "fromGate": [],
+            "toPlatform": [],
+            "fromPlatform": []
+        },
+        {
+            "status": "active",
+            "id": "6368e088f46fa66a7f9abea2",
+            "name": "Escalator no. 4",
+            "descriptionLocation": "Paid Concourse to Platfrom",
+            "door": "Inside",
+            "disabled": false,
+            "stationCode": "DSTO",
+            "type": "Escalator",
+            "code": "EC 4",
+            "toGate": [],
+            "fromGate": [],
+            "toPlatform": [],
+            "fromPlatform": []
+        },
+        {
+            "status": "active",
+            "id": "6368e088f46fa66a7f9abea3",
+            "name": "Escalator no. 3",
+            "descriptionLocation": "Paid Concourse to Platfrom",
+            "door": "Inside",
+            "disabled": false,
+            "stationCode": "DSTO",
+            "type": "Escalator",
+            "code": "EC 3",
+            "toGate": [],
+            "fromGate": [],
+            "toPlatform": [],
+            "fromPlatform": []
+        },
+        {
+            "status": "active",
+            "id": "6368e088f46fa66a7f9abea4",
+            "name": "Escalator no. 2",
+            "descriptionLocation": "Paid Concourse to Platfrom",
+            "door": "Inside",
+            "disabled": false,
+            "stationCode": "DSTO",
+            "type": "Escalator",
+            "code": "EC 2",
+            "toGate": [],
+            "fromGate": [],
+            "toPlatform": [],
+            "fromPlatform": []
+        },
+        {
+            "status": "active",
+            "id": "6368e088f46fa66a7f9abea5",
+            "name": "Escalator no. 1",
+            "descriptionLocation": "Paid Concourse to Platfrom",
+            "door": "Inside",
+            "disabled": false,
+            "stationCode": "DSTO",
+            "type": "Escalator",
+            "code": "EC 1",
+            "toGate": [],
+            "fromGate": [],
+            "toPlatform": [],
+            "fromPlatform": []
+        },
+        {
+            "status": "active",
+            "id": "6368e088f46fa66a7f9abea6",
+            "name": "Lift no. 4",
+            "descriptionLocation": "Paid Concourse to Platfrom",
+            "door": "Inside",
+            "disabled": true,
+            "stationCode": "DSTO",
+            "type": "Lift",
+            "code": "LA 4",
+            "toGate": [],
+            "fromGate": [],
+            "toPlatform": [],
+            "fromPlatform": []
+        },
+        {
+            "status": "active",
+            "id": "6368e088f46fa66a7f9abea7",
+            "name": "Lift no. 3",
+            "descriptionLocation": "Paid Concourse to Platfrom",
+            "door": "Inside",
+            "disabled": true,
+            "stationCode": "DSTO",
+            "type": "Lift",
+            "code": "LA 3",
+            "toGate": [],
+            "fromGate": [],
+            "toPlatform": [],
+            "fromPlatform": []
+        }
+    ],
+    "feeder": [],
+    "first_last_train": [],
+    "updated_at": null,
+    "updated_date_time": null,
+    "geoloc": {
+        "type": "Point",
+        "coordinates": [
+            28.5522,
+            77.0583
+        ]
+    }
+}

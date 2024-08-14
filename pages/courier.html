@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courier </title>
+    <link rel="stylesheet" href="../css/courier.css">
+    <link rel="stylesheet" href="../css/input.css">
+    <link rel="stylesheet" href="../css/pg.css">
+    <link rel="stylesheet" href="../css/function.css">
+
+    <link rel="shortcut icon" href="../assets/Delhi_Metro_logo.svg.png" />
+    <link <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="section-container" id="courier-body">
+
+      <div id="tiket_header">
+        <div class="leftMetro" id="courier-home">
+          <img src="../assets/leftArrowBold.svg" alt id="backimg">
+          <p id="mticket"> courier</p>
+        </div>
+        <div class="ibutton"><img src="../assets/info.png" alt></div>
+      </div>
+      <!---------------------------header----------------------------------------------------------->
+
+      <!--------------term & conditions------------------------>
+      <div class="conditions">
+        <img src="../assets/courier.jpg" alt="courier">
+
+        <div class="noticeinfo">
+          <h2 class="noticeinfo-heading">Send Your Couriers </h2>
+          <h3 class="noticeinfo-heading2"> Across the Country</h3>
+          <p>The courier can only be dropped in the smartlocker at the selectd
+            metro station in Delhi and NCR</p>
+        </div>
+        <button class="nextinfo"  id="goins">NEXT </button>
+        <hr id="hr">
+        <div class="infoVideo">
+          <h3>Need Help?</h3>
+          <p> Watch Tutorial of how to book smart Lockers</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="term_conditions" id="term-conditions">
+      <div id="tiket_header" class="tcn">
+        <div class="leftMetro">
+          <img src="../assets/leftArrowBold.svg" alt id="tcbackimg">
+          <p id="mticket"> courier</p>
+        </div>
+        <div class="ibutton"><img src="../assets/info.png" alt></div>
+      </div>
+      <div class="tc2">
+
+      </div>
+
+    </div>
+
+    <div class="instructions-body" id="instructions-body">
+      <div id="tiket_header">
+        <div class="leftMetro" id="backimg">
+          <img src="../assets/leftArrowBold.svg" alt>
+          <p id="mticket"> courier</p>
+        </div>
+        <div class="ibutton"><img src="../assets/info.png" alt></div>
+      </div>
+      <div class="ib2">
+
+      </div>
+
+    </div>
+
+    <div class="delivery-checker" id="delivery-checker">
+      <div id="tiket_header">
+        <div class="leftMetro" id="dcbackimg">
+          <img src="../assets/leftArrowBold.svg" alt>
+          <p id="mticket"> courier</p>
+        </div>
+
+      </div>
+      <div class="dc2">
+        <h1>Enter Your Destination Pincode</h1>
+        <div class="input-button-container">
+          <div class="pincode-input-field">
+            <input type="number" id="pincode-input" required>
+            <label for="pincode-input" id="pincode-input-label">Enter
+              Pincode</label>
+          </div>
+          <button class="check-btn">Check</button>
+        </div>
+        <p class="delivery-time"></p>
+        <div class="result-container">
+
+        </div>
+
+        <div class="dc2-buttons">
+
+        </div>
+      </div>
+    </div>
+
+    <div class="delivery-form" id="delivery-form">
+      <div id="tiket_header">
+        <div class="leftMetro" id="dfbackimg">
+          <img src="../assets/leftArrowBold.svg" alt>
+          <p id="mticket"> Receiver Details</p>
+        </div>
+
+      </div>
+      <div class="df2">
+
+        <div class="delivary-form">
+
+        </div>
+      </div>
+
+      <div id="custom-alert" style="display: none;">
+        <div class="alert-content">
+          <p>We don't accept unpacked parcels.</p>
+          <button id="ok-button">OK</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="senders-form" id="senders-form">
+      <div id="tiket_header" class="sf-tiket_header">
+        <div class="leftMetro" id="sfbackimg">
+          <img src="../assets/leftArrowBold.svg" alt>
+          <p id="mticket"> sender Details</p>
+        </div>
+
+      </div>
+      <div class="sf2">
+
+        <div class="sender-form">
+
+        </div>
+
+      </div>
+        <div id="station-selection" class="station-modal">
+          <div class="modal-content">
+            <div id="modal-container">
+              <p class="close-btn">&#9664</p>
+              <h2 id="heading">Search Station</h2>
+
+              <img id="search-icon2" src="../assets/search2.png" alt="Search">
+              <input type="text" id="station-search">
+              <span class="clear-icon" id="clear-icon" ">
+                <i class=" fas fa-times">&#10006;</i>
+              </span>
+
+            </div>
+
+            <div class="modal-header" id="imgs">
+              <img id="search-icon" src="../assets/search2.png" alt="Search">
+            </div>
+
+          </div>
+          <div class="modal-body">
+
+            <ul id="station-list">
+              <!-- Stations will be populated here -->
+            </ul>
+
+          </div>
+        </div>
+
+   
+      <div id="tarrif">
+
+      </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../apis.js"></script>
+    <script src="../script/courier.js"></script>
+    <script src="../script/pg.js"></script>
+    <script src="../script/function.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/pbkdf2.js"></script>
+
+  </body>
+
+</html>

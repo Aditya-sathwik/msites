@@ -1,0 +1,17 @@
+{
+  "lang": "en-us",
+  "name": "DMRC",
+  "short_name": "METRO",
+  "description": "DMRC WEB-APP",
+  "start_url": "/",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "any",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "../public/assets/Delhi_Metro_logo.svg.png",
+      "sizes": "512x512"
+    }
+  ]
+}

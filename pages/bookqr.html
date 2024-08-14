@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book QR Ticket</title>
+  <link rel="shortcut icon" href="../assets/Delhi_Metro_logo.svg.png" />
+  <link rel="manifest" href="../manifest.json">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/bookqr.css">
+  <link rel="stylesheet" href="../css/function.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+</head>
+<body>
+
+ 
+  <div id="fulldata">
+  <div class="station-selector">
+    <div class="input-group">
+        <fieldset class="input-wrapper">
+            <legend class="input-label">Depart from</legend>
+            
+                <input type="text" id="from-station" value=""  class="form-control" placeholder="Select Station" readonly>
+        </fieldset>
+        <button id="swap-stations" class="swap-button"><img src="../assets/swap.svg" alt="" id="swapbtn"></button>
+        <fieldset class="input-wrapper">
+            <legend class="input-label">Destination</legend>
+                <input type="text" id="to-station" class="to-station" value="" class="form-control" placeholder="Select Station" readonly>
+            
+        </fieldset>
+    </div>
+    <div class="options">
+        <div class="radio-buttons">
+            <label><input type="radio" name="route-option" value="shortest" checked> Shortest Route</label>
+            <label><input type="radio" name="route-option" value="min-interchange"> Minimum Interchange</label>
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox" id="include-airport"> Include Airport Line</label>
+        </div>
+        <button id="show-fare" class="show-fare-button" >Show Fare</button>
+    </div>
+  </div>
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+        <div class="popup-body">
+            <div class="popup-icon">
+                   <img src="../assets/Alert.svg" alt="">   
+                         </div>
+            <p id="err1"></p>
+        </div>
+        <button class="close-button">Close</button>
+    </div>
+</div>
+<div id="fare-options-container" class="hidden"></div>
+<!-- list-option -->
+<div id="station-selection" class="station-modal">
+    <div class="modal-content">
+        <div id="modal-container">
+            <p class="close-btn">&#9664</p>
+            <h2 id="heading">Search Station</h2>
+            <img id="search-icon2" src="../assets/search2.png" alt="Search">
+            <input type="text" id="station-search">
+            <span class="clear-icon" id="clear-icon" >
+                <i class=" fas fa-times">&#10006;</i>
+            </span>
+
+        </div>
+
+        <div class="modal-header" id="imgs">
+            <img id="search-icon" src="../assets/search2.png" alt="Search">
+        </div>
+
+    </div>
+    <div class="modal-body">
+        
+            <ul id="station-list">
+                <!-- Stations will be populated here -->
+            </ul>
+        
+    </div>
+</div>
+</div>
+</div>
+
+<!-- <script src="../script/nav.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/pbkdf2.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="../script/function.js"></script>
+<script src="../script/bookqr.js"></script>
+
+<!-- <script src="../script/showfare.js"></script> -->
+<!-- <script src="../script/main.js"></script> -->
+
+</body>
+</html>

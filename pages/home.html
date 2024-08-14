@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../assets/Delhi_Metro_logo.svg.png" />
+  <link rel="manifest" href="../manifest.json">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/login.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <title>Home</title>
+</head>
+
+<body>
+  <!-------navbar------->
+  <nav id="nav">
+    <div class="left">
+      <a href="index.html" class="nav-item">
+        <img src="../assets/hom3.png" id="profile-icon" alt="Image" class="color-change">
+        <span>Sign In</span>
+      </a>
+    </div>
+    <div class="right" style="display: flex; flex-direction: row;">
+      <a href="#" class="nav-item">
+        <img src="../assets/Delhi_Metro_logo.svg.png" alt="Image" class="color-change">
+      </a>
+      <a href="#" class="nav-item">
+        <img src="../assets/map.png" alt="Image" class="color-change">
+      </a>
+    </div>
+  </nav>
+
+  <!-------------body section----------->
+  <div id="parent">
+  <div id="original-content"></div>
+</div>
+
+
+   <!-- <script src="../script/loader.js"></script>  -->
+   <script src="../script/main.js"></script>
+   <script src="../script/nav.js"></script>
+   <script src="../script/logincheck.js"></script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('../sw.js', { scope: './home.html' });
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,245 @@
+:root {
+  --bodycolor: rgb(19, 17, 17);
+  --background: #1b1d1c;
+  --bg-color: #1e201f;
+  --bottom-bg-color: #101d1e;
+  --bottom-text-active-color: #0c5dc5;
+  --bottom-text-inactive-color: #dedede;
+  --button-bg-color: #0060d1;
+  --button-bg-inactive-color: #ffffff;
+  --button-text-color: #ffffff;
+  --button-text-inactive-color: #000000;
+  --check-box-active-color: #0060d1;
+  --check-box-border-color: #0060d1;
+  --check-box-inactive-color: #fafafa;
+  --header-color-1: #191919;
+  --header-color-2: #292929;
+  --header-text-color: #ffffff;
+  --icon-bg-color: #252726;
+  --icon-bg-front-color: #434343;
+  --icon-border-color: #79797a;
+  --icon-widget-color: #ebebeb;
+  --radio-box-active-color: #0060d1;
+  --radio-box-inactive-color: #b0b0b0;
+  --shadow-color: #242424;
+  --special-button-background-color-1: #edfc74;
+  --special-button-background-color-2: #f5ffa8;
+  --status-bar-color: #191919;
+  --sub-text-color: #000000;
+  --text-color: #ffffff;
+  --view-all-text-color: #ffffff;
+  --bordercolor: rgb(116, 105, 105);
+  --ctbg: rgb(20, 19, 19);
+}
+
+body {
+
+  background-color: var(--bg-color);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  color: var(--text-color);
+}
+
+#tiket_header {
+  background-color: var(--header-color-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 0px 10px 0px;
+}
+
+.leftMetro {
+  display: flex;
+  align-items: center;
+}
+
+.leftMetro img {
+  margin-right: 10px;
+}
+.leftMetro p {
+ font-size: 14px;
+}
+
+.ibutton img {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+.list-body {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  left: 0;
+  top: 0;
+  padding: 20px 6px;
+  margin: 45px 0 0 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: var(--header-color-2);
+
+}
+
+.contact-image {
+  width: 65%;
+  margin-bottom: 10px;
+}
+
+
+.faq-container {
+  overflow-y: auto;
+  max-height: 100vh;
+  margin-top: 5px;
+  padding-top: 20px;
+  border: 1px solid var(--icon-border-color);
+  border-radius: 10px;
+}
+
+
+.faqs-body{
+  display: none;
+
+}
+
+.content-body{
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  left: 0;
+  top: 0;
+  padding: 20px 6px;
+  margin: 45px 0 0 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: var(--header-color-2);
+
+}
+
+.c-container {
+  overflow-y: auto;
+  max-height: 100vh;
+  margin-top: 5px;
+  padding-top: 20px;
+  padding: 26px;
+  /* border: 1px solid var(--icon-border-color); */
+  border-radius: 10px;
+}
+
+
+
+
+
+.faq-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.category {
+
+  border-radius: 10px;
+
+  padding: 10px;
+}
+
+.category h3 {
+  padding: 10px 10px;
+  font-size: 14px;
+  font-weight: 500;
+
+}
+
+.category ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category ul li {
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.category ul li span {
+  font-size: 12px;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.category ul li:last-child {
+  border-bottom: none;
+}
+
+.category ul li span:hover {
+color: var(--bottom-text-active-color);
+}
+
+.category ul li .arrow {
+  /* position: absolute;
+  right: 10px; */
+  filter: invert(30%);
+}
+
+
+.faq-section {
+  padding: 20px;
+}
+.c-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.faq-item {
+  margin-bottom: 20px;
+}
+.faq-item h3 {
+  margin-bottom: 10px;
+  font-size: 11px;
+  font-weight: 500;
+}
+.faq-item p {
+  font-weight: 300;
+  font-size: 10px;
+}
+.faq-item ul {
+  list-style-type: disc;
+  font-weight: 300;
+  margin-left: 20px;
+  font-size: 10px;
+}
+
+.contact-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+.contact-table thead {
+  background-color: #737373;
+}
+
+.contact-table th, .contact-table td {
+  border: 1px solid var(--icon-border-color);
+  padding: 8px;
+  text-align: left;
+  font-size: 9px;
+}
+
+
+
+
+

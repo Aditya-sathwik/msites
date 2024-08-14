@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g id="Group_1879" data-name="Group 1879" transform="translate(-24 -383)">
+    <g id="Group" transform="translate(24 383)">
+      <path id="Vector" d="M0,0H26V26H0Z" fill="none"/>
+    </g>
+    <g id="Group-2" data-name="Group" transform="translate(26.167 384.083)">
+      <g id="Group-3" data-name="Group">
+        <path id="Vector-2" data-name="Vector" d="M0,0H3.25V7.583H0Z" transform="translate(2.167 9.75)" fill="#0d1d1e"/>
+        <path id="Vector-3" data-name="Vector" d="M0,0H3.25V7.583H0Z" transform="translate(9.208 9.75)" fill="#0d1d1e"/>
+        <path id="Vector-4" data-name="Vector" d="M0,0H21.667V3.25H0Z" transform="translate(0 19.5)" fill="#0d1d1e"/>
+        <path id="Vector-5" data-name="Vector" d="M0,0H3.25V7.583H0Z" transform="translate(16.25 9.75)" fill="#0d1d1e"/>
+        <path id="Vector-6" data-name="Vector" d="M10.833,0,0,5.417V7.583H21.667V5.417Z" fill="#0d1d1e"/>
+      </g>
+    </g>
+  </g>
+</svg>

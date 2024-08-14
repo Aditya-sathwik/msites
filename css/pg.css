@@ -1,0 +1,389 @@
+:root {
+    /* Background colors */
+    /*     
+    --bgColor: #1e201f; */
+    --bgColor: #1f1e1e;
+    --bottomBgColor: #101d1e;
+    --headerColor1: #191919;
+    --headerColor2: #292929;
+    --iconBgColor: #252726;
+    --specialButtonBackgroundColor: #edfc74, #f5ffa8;
+    --statusBarColor: #191919;
+  
+    /* Text colors */
+    --bottomTextActiveColor: #0c5dc5;
+    --bottomTextInActiveColor: #dedede;
+    --buttonTextColor: #ffffff;
+    --buttonTextInActiveColor: #000000;
+    --checkBoxInActiveColor: #fafafa;
+    --headerTextColor: #ffffff;
+    --iconBgFrontColor: #434343;
+    --radioBoxInActiveColor: #b0b0b0;
+    --subTextColor: #000000;
+    --textColor: #ffffff;
+    --viewAllTextColor: #ffffff;
+  
+    /* Button colors */
+    --buttonBgColor: #0060d1;
+    --buttonBgInActiveColor: #ffffff;
+  
+    /* Checkbox and radio button colors */
+    --checkBoxActiveColor: #0060d1;
+    --checkBoxBorderColor: #0060d1;
+    --radioBoxActiveColor: #0060d1;
+  
+    /* Icon and shadow colors */
+    --iconBorderColor: #79797a;
+    --iconWidgetColor: #ebebeb;
+    --shadowColor: #242424;
+  }
+  
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    -webkit-text-size-adjust: 100%;
+    color: var(--textColor);
+}
+
+.payamount {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--bgColor);
+    border: 1px solid rgb(59, 55, 55);
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+    max-width: 600px;
+}
+
+#payimg {
+    display: flex;
+    flex-direction: row;
+}
+
+#payimg p {
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+#totalpayamount {
+    margin-top: 6px;
+}
+
+.payoptions a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+#receipt {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.payoptions {
+    border: 1px solid rgb(59, 55, 55);
+    max-width: 600px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.walletpay,
+.creditcard,
+.debitcard,
+.upipay {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 5px;
+}
+
+#Payheader {
+    background: var(--bgColor);
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+#Payheader img {
+    margin-left: 10px;
+    margin-top: 6px;
+    height: 12px;
+}
+
+#Payheader p {
+    margin-top: 6px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.payamount img,
+#walletimg,
+.creditcard img,
+.debitcard img {
+    font-size: 20px;
+    filter: invert(60%);
+    /* This makes the color white */
+    height: 25px;
+    width: 30px;
+    color: #ffffff;
+}
+
+.walletpay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.walletpayimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.walletinfo {
+    margin-left: 10px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.addbalance {
+    background-color: #0056b3;
+    padding: 10px 10px;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    font-size: 12px;
+    margin-right: -10px;
+}
+
+.creditcard,
+.debitcard,
+.upipay {
+    display: flex;
+    flex-direction: row;
+}
+
+.creditcard p,
+.debitcard p {
+    margin-left: 10px;
+    margin-top: 5px;
+
+}
+
+.upipay p {
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.upipay img {
+    width: 40px;
+}
+
+/* styles.css */
+#newPageupi {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 20px auto;
+    max-width: 600px;
+    border: 1px solid var( --iconBorderColor);
+    width: 95%;
+    border-radius: 5px;
+}
+
+.containerupi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#timerContainer {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle1 {
+    margin-top: -50px;
+    position: absolute;
+    border: 8px solid var(--bottom-text-active-color);
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.outerCircle {
+    width: 180px;
+    height: 180px;
+    border: 15px solid rgb(30, 30, 49);
+}
+
+.innerCircle {
+    width: 120px;
+    /* Slightly smaller than outer circle */
+    height: 120px;
+    /* Slightly smaller than outer circle */
+    border: 6px solid rgb(38, 38, 90);
+}
+
+#time {
+    margin-top: -50px;
+    position: absolute;
+    font-size: 24px;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+#time p {
+    font-size: 10px;
+    margin-left: -4px;
+}
+
+.openapp {
+    margin-left: 40px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.openappimg {
+    margin-left: -20px;
+}
+
+.openappimg img {
+    height: 20px;
+    max-width: 60px;
+}
+
+.vpanumber {
+    background-color: var(--bgColor);
+    padding: 10px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    color: var(--text-color);
+}
+
+.vpanumber input {
+    background-color: transparent;
+    padding: 15px;
+    border: 1px solid var( --iconBorderColor);
+}
+
+.vpanumber button {
+    margin: 20px auto;
+    padding: 10px 30px;
+    background-color: var(--button-bg-color);
+    color: var(--text-color);
+    border-radius: 25px;
+    border: 1px solid var(--bottom-text-active-color);
+}
+
+.status-message {
+    display: none;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+#payment-failed {
+    background-color: transparent;
+    color: var(--text-color);
+    padding: 10px;
+}
+
+#payment-failed h2 {
+    color: rgb(139, 4, 4);
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#payment-failed p {
+    /* font-size: 16px; */
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#payment-failed p img {
+    margin-left: 15px;
+}
+
+#orderid,
+#refid,
+#failed-datetime {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#go-home {
+    background-color: var(--button-bg-color);
+    padding: 10px 80px;
+    border-radius: 25px;
+    border: 1px solid var(--bottom-text-active-color);
+}
+
+#failed_img {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#payment-success {
+    background-color: transparent;
+    color: var(--text-color);
+    padding: 10px;
+}
+
+#payment-success h2 {
+    color: rgb(6, 243, 18);
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#payment-success p {
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#go_my_tickets {
+    background-color: var(--button-bg-color);
+    padding: 8px 60px;
+    font-size: 10px;
+    border-radius: 25px;
+    border: 1px solid var(--bottom-text-active-color);
+}
+
+#my_tikets {
+    max-width: 600px;
+    border: 1px solid white;
+}

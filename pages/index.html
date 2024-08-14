@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="shortcut icon" href="../assets/Delhi_Metro_logo.svg.png" />
+  <link rel="manifest" href="../manifest.json">
+  <link rel="stylesheet" href="../css/login.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>LOGIN DMRC</title>
+</head>
+
+<body>
+  <div class="signin-container">
+    <div class="metro-logo">
+      <img src="../assets/Delhi_Metro_logo.svg.png" alt=""> <br>
+    </div>
+  </div>
+  <div id="loginform">
+    <p>Please complete the registration to avail the services</p>
+    <h6>Enter your mobile number</h6>
+    <div class="container">
+      <form id="mobileForm">
+        <input id="mobileNumber" required="required" class="inp" type="text" inputmode="numeric" pattern="[0-9]*" />
+        <span class="content">Mobile Number</span>
+      </form>
+    </div>
+    
+    <div class="error-message-container" id="errorMessage"></div>
+    <button id="requestOtpButton">REQUEST OTP</button>
+  </div>
+
+
+  </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../script/login.js"></script>
+  <script src="../script/main.js"></script>
+  <!-- <script src="../script/loader.js"></script> -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('../sw.js', { scope: './index.html' });
+    }
+  </script>
+</body>
+
+</html>
