@@ -96,3 +96,6 @@ const metrolines = {
 const tour = {
  guidelist : "http://35.200.153.72:3000/metro/v3/tour-guide/list",
 }
+const nearmetro = {
+metross : "http://35.200.153.72:3000/metro/v3/stations/nearest?",
+}
